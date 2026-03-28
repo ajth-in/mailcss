@@ -18,6 +18,7 @@ export interface Config {
 
   /**
    * Behavior when encountering invalid / unsupported styles
+   * @default "warn"
    */
   validationMode?: ValidationMode;
 }
