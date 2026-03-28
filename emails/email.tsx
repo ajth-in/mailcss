@@ -1,14 +1,12 @@
 import { Button, Html, Head, Body } from "@react-email/components";
+import css from "./css";
 
 export default function Email() {
   return (
     <Html>
       <Head />
       <Body>
-        <Button
-          href="https://example.com"
-          style={{ background: "#000", color: "#fff", padding: "12px 20px" }}
-        >
+        <Button href="https://example.com" style={css({ backgroundColor: "black.sa" })}>
           Click me
         </Button>
       </Body>
