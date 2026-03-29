@@ -9,6 +9,7 @@ export const css =
     const resolvedStyles: Record<string, any> = {};
 
     Object.entries(styles).forEach(([prop, value]) => {
+      console.log(prop, value);
       if (value === undefined || value === null) return;
 
       if (prop === "marginX") {

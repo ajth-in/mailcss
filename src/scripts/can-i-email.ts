@@ -1,10 +1,11 @@
-import fs from 'node:fs/promises';
-import path from 'node:path';
-import { fileURLToPath } from 'node:url';
-import { propsToType } from '../style-props/can-i-email/maps/props-to-type';
+import fs from "node:fs/promises";
+import path from "node:path";
+import { fileURLToPath } from "node:url";
+import { propsToType } from "../can-i-email/maps/props-to-type";
+import { computeSupportCoverage } from "../can-i-email/compute-support-coverage";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const MAPS_DIR = path.resolve(__dirname, '../style-props/can-i-email/maps');
+const MAPS_DIR = path.resolve(__dirname, "../style-props/can-i-email/maps");
 
 interface CanIEmailItem {
   slug: string;
@@ -34,50 +35,8 @@ interface ProcessedItem {
   type: string;
 }
 
-/**
- * Calculates the support coverage percentages for a CSS property based on its Can I Email stats.
- */
-function computeSupportCoverage(stats: Record<string, any>): Coverage {
-  let supportedCount = 0;
-  let partialCount = 0;
-  let notSupportedCount = 0;
-  let totalCount = 0;
-
-  for (const client in stats) {
-    const platforms = stats[client];
-    for (const platform in platforms) {
-      const versions = platforms[platform];
-      for (const version in versions) {
-        const rawStatus = versions[version];
-        if (!rawStatus) continue;
-        const status = rawStatus.split(' ')[0].toLowerCase();
-        if (status === 'y') {
-          supportedCount++;
-          totalCount++;
-        } else if (status === 'a') {
-          partialCount++;
-          totalCount++;
-        } else if (status === 'n') {
-          notSupportedCount++;
-          totalCount++;
-        }
-      }
-    }
-  }
-
-  if (totalCount === 0) {
-    return { support: 0, partial: 0, notSupported: 0 };
-  }
-
-  return {
-    support: (supportedCount / totalCount) * 100,
-    partial: (partialCount / totalCount) * 100,
-    notSupported: (notSupportedCount / totalCount) * 100,
-  };
-}
-
 function extractNeededFields(item: CanIEmailItem, propName: string): ProcessedItem {
-  const type = (propsToType as any)[propName] || 'string';
+  const type = (propsToType as any)[propName] || "string";
   return {
     slug: item.slug,
     description: item.description,
@@ -90,11 +49,11 @@ function extractNeededFields(item: CanIEmailItem, propName: string): ProcessedIt
 }
 
 async function run() {
-  console.log('Fetching data from caniemail.com...');
-  const response = await fetch('https://www.caniemail.com/api/data.json');
+  console.log("Fetching data from caniemail.com...");
+  const response = await fetch("https://www.caniemail.com/api/data.json");
   const json = (await response.json()) as { data: CanIEmailItem[] };
 
-  const cssItems = json.data.filter((item) => item.category === 'css');
+  const cssItems = json.data.filter((item) => item.category === "css");
 
   const cssUnits: Record<string, ProcessedItem> = {};
   const cssFunctions: Record<string, ProcessedItem> = {};
@@ -106,28 +65,28 @@ async function run() {
     const title = item.title;
 
     // Skip keys containing spaces
-    if (title.includes(' ')) {
-      if (!title.includes('&')) {
+    if (title.includes(" ")) {
+      if (!title.includes("&")) {
         continue;
       }
     }
 
-    if (item.slug.startsWith('css-unit-')) {
+    if (item.slug.startsWith("css-unit-")) {
       cssUnits[title] = extractNeededFields(item, title);
     } else if (
-      item.slug.startsWith('css-function-') ||
-      item.slug === 'css-linear-gradient' ||
-      title.endsWith('()')
+      item.slug.startsWith("css-function-") ||
+      item.slug === "css-linear-gradient" ||
+      title.endsWith("()")
     ) {
       cssFunctions[title] = extractNeededFields(item, title);
-    } else if (title.startsWith('@')) {
+    } else if (title.startsWith("@")) {
       cssAtRules[title] = extractNeededFields(item, title);
-    } else if (title.includes(':')) {
+    } else if (title.includes(":")) {
       cssValues[title] = extractNeededFields(item, title);
-    } else if (title.includes('&')) {
-      const parts = title.split('&').map((s) => s.trim());
+    } else if (title.includes("&")) {
+      const parts = title.split("&").map((s) => s.trim());
       for (const part of parts) {
-        if (!part.includes(' ')) {
+        if (!part.includes(" ")) {
           cssProps[part] = extractNeededFields(item, part);
         }
       }
@@ -140,11 +99,11 @@ async function run() {
   await fs.mkdir(MAPS_DIR, { recursive: true });
 
   const files = {
-    'properties.ts': { name: 'canIEmailCSSProperties', data: cssProps },
-    'units.ts': { name: 'canIEmailCSSUnits', data: cssUnits },
-    'functions.ts': { name: 'canIEmailCSSFunctions', data: cssFunctions },
-    'at-rules.ts': { name: 'canIEmailCSSAtRules', data: cssAtRules },
-    'values.ts': { name: 'canIEmailCSSValues', data: cssValues },
+    "properties.ts": { name: "canIEmailCSSProperties", data: cssProps },
+    "units.ts": { name: "canIEmailCSSUnits", data: cssUnits },
+    "functions.ts": { name: "canIEmailCSSFunctions", data: cssFunctions },
+    "at-rules.ts": { name: "canIEmailCSSAtRules", data: cssAtRules },
+    "values.ts": { name: "canIEmailCSSValues", data: cssValues },
   };
 
   for (const [filename, { name, data }] of Object.entries(files)) {
@@ -154,7 +113,7 @@ async function run() {
 
 export const ${name} = ${JSON.stringify(data, null, 2)} as const;
 `;
-    await fs.writeFile(filePath, content, 'utf8');
+    await fs.writeFile(filePath, content, "utf8");
     console.log(`Saved ${filename} to ${MAPS_DIR}`);
   }
 }
