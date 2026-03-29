@@ -12,10 +12,22 @@ const SHORTHANDS: Record<string, { expansion: string[]; category: string }> = {
   marginY: { expansion: ["marginTop", "marginBottom"], category: "spacing" },
   paddingX: { expansion: ["paddingLeft", "paddingRight"], category: "spacing" },
   paddingY: { expansion: ["paddingTop", "paddingBottom"], category: "spacing" },
-  borderTopRadius: { expansion: ["borderTopLeftRadius", "borderTopRightRadius"], category: "radii" },
-  borderRightRadius: { expansion: ["borderTopRightRadius", "borderBottomRightRadius"], category: "radii" },
-  borderBottomRadius: { expansion: ["borderBottomLeftRadius", "borderBottomRightRadius"], category: "radii" },
-  borderLeftRadius: { expansion: ["borderTopLeftRadius", "borderBottomLeftRadius"], category: "radii" },
+  borderTopRadius: {
+    expansion: ["borderTopLeftRadius", "borderTopRightRadius"],
+    category: "radii",
+  },
+  borderRightRadius: {
+    expansion: ["borderTopRightRadius", "borderBottomRightRadius"],
+    category: "radii",
+  },
+  borderBottomRadius: {
+    expansion: ["borderBottomLeftRadius", "borderBottomRightRadius"],
+    category: "radii",
+  },
+  borderLeftRadius: {
+    expansion: ["borderTopLeftRadius", "borderBottomLeftRadius"],
+    category: "radii",
+  },
 };
 
 export const css =

@@ -3,68 +3,68 @@
 
 export const canIEmailCSSValues = {
   "display:flex": {
-    "slug": "css-display-flex",
-    "description": "",
-    "url": "https://www.caniemail.com/features/css-display-flex/",
-    "last_test_date": "2021-11-02",
-    "coverage": {
-      "support": 61.29032258064516,
-      "partial": 6.451612903225806,
-      "notSupported": 32.25806451612903
+    slug: "css-display-flex",
+    description: "",
+    url: "https://www.caniemail.com/features/css-display-flex/",
+    last_test_date: "2021-11-02",
+    coverage: {
+      support: 61.29032258064516,
+      partial: 6.451612903225806,
+      notSupported: 32.25806451612903,
     },
-    "notes": null,
-    "type": "string"
+    notes: null,
+    type: "string",
   },
   "display:grid": {
-    "slug": "css-display-grid",
-    "description": "",
-    "url": "https://www.caniemail.com/features/css-display-grid/",
-    "last_test_date": "2019-02-28",
-    "coverage": {
-      "support": 52.94117647058824,
-      "partial": 0,
-      "notSupported": 47.05882352941176
+    slug: "css-display-grid",
+    description: "",
+    url: "https://www.caniemail.com/features/css-display-grid/",
+    last_test_date: "2019-02-28",
+    coverage: {
+      support: 52.94117647058824,
+      partial: 0,
+      notSupported: 47.05882352941176,
     },
-    "notes": null,
-    "type": "string"
+    notes: null,
+    type: "string",
   },
   "display:none": {
-    "slug": "css-display-none",
-    "description": "",
-    "url": "https://www.caniemail.com/features/css-display-none/",
-    "last_test_date": "2019-02-28",
-    "coverage": {
-      "support": 85.1063829787234,
-      "partial": 12.76595744680851,
-      "notSupported": 2.127659574468085
+    slug: "css-display-none",
+    description: "",
+    url: "https://www.caniemail.com/features/css-display-none/",
+    last_test_date: "2019-02-28",
+    coverage: {
+      support: 85.1063829787234,
+      partial: 12.76595744680851,
+      notSupported: 2.127659574468085,
     },
-    "notes": null,
-    "type": "string"
+    notes: null,
+    type: "string",
   },
   "flex-direction:column": {
-    "slug": "css-flex-direction",
-    "description": "",
-    "url": "https://www.caniemail.com/features/css-flex-direction/",
-    "last_test_date": "2023-01-17",
-    "coverage": {
-      "support": 48.214285714285715,
-      "partial": 0,
-      "notSupported": 51.78571428571429
+    slug: "css-flex-direction",
+    description: "",
+    url: "https://www.caniemail.com/features/css-flex-direction/",
+    last_test_date: "2023-01-17",
+    coverage: {
+      support: 48.214285714285715,
+      partial: 0,
+      notSupported: 51.78571428571429,
     },
-    "notes": null,
-    "type": "string"
+    notes: null,
+    type: "string",
   },
   "flex-wrap:wrap": {
-    "slug": "css-flex-wrap",
-    "description": "",
-    "url": "https://www.caniemail.com/features/css-flex-wrap/",
-    "last_test_date": "2023-01-16",
-    "coverage": {
-      "support": 47.45762711864407,
-      "partial": 0,
-      "notSupported": 52.54237288135594
+    slug: "css-flex-wrap",
+    description: "",
+    url: "https://www.caniemail.com/features/css-flex-wrap/",
+    last_test_date: "2023-01-16",
+    coverage: {
+      support: 47.45762711864407,
+      partial: 0,
+      notSupported: 52.54237288135594,
     },
-    "notes": null,
-    "type": "string"
-  }
+    notes: null,
+    type: "string",
+  },
 } as const;

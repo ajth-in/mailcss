@@ -3,2083 +3,2122 @@
 
 export const canIEmailCSSProperties = {
   "accent-color": {
-    "slug": "css-accent-color",
-    "description": "",
-    "url": "https://www.caniemail.com/features/css-accent-color/",
-    "last_test_date": "2023-12-19",
-    "coverage": {
-      "support": 15.217391304347828,
-      "partial": 0,
-      "notSupported": 84.78260869565217
+    slug: "css-accent-color",
+    description: "",
+    url: "https://www.caniemail.com/features/css-accent-color/",
+    last_test_date: "2023-12-19",
+    coverage: {
+      support: 15.217391304347828,
+      partial: 0,
+      notSupported: 84.78260869565217,
     },
-    "notes": null,
-    "type": "colors"
+    notes: null,
+    type: "colors",
   },
   "align-items": {
-    "slug": "css-align-items",
-    "description": "",
-    "url": "https://www.caniemail.com/features/css-align-items/",
-    "last_test_date": "2023-12-19",
-    "coverage": {
-      "support": 61.111111111111114,
-      "partial": 0,
-      "notSupported": 38.88888888888889
+    slug: "css-align-items",
+    description: "",
+    url: "https://www.caniemail.com/features/css-align-items/",
+    last_test_date: "2023-12-19",
+    coverage: {
+      support: 61.111111111111114,
+      partial: 0,
+      notSupported: 38.88888888888889,
     },
-    "notes": null,
-    "type": "string"
+    notes: null,
+    type: "string",
   },
-  "animation": {
-    "slug": "css-animation",
-    "description": "Tests for the shorthand `animation` property and its longhand equivalents.",
-    "url": "https://www.caniemail.com/features/css-animation/",
-    "last_test_date": "2023-12-19",
-    "coverage": {
-      "support": 27.083333333333332,
-      "partial": 6.25,
-      "notSupported": 66.66666666666666
+  animation: {
+    slug: "css-animation",
+    description: "Tests for the shorthand `animation` property and its longhand equivalents.",
+    url: "https://www.caniemail.com/features/css-animation/",
+    last_test_date: "2023-12-19",
+    coverage: {
+      support: 27.083333333333332,
+      partial: 6.25,
+      notSupported: 66.66666666666666,
     },
-    "notes": null,
-    "type": "string"
+    notes: null,
+    type: "string",
   },
   "aspect-ratio": {
-    "slug": "css-aspect-ratio",
-    "description": "Sets a preferred aspect ratio for the element",
-    "url": "https://www.caniemail.com/features/css-aspect-ratio/",
-    "last_test_date": "2023-12-19",
-    "coverage": {
-      "support": 32.69230769230769,
-      "partial": 0,
-      "notSupported": 67.3076923076923
+    slug: "css-aspect-ratio",
+    description: "Sets a preferred aspect ratio for the element",
+    url: "https://www.caniemail.com/features/css-aspect-ratio/",
+    last_test_date: "2023-12-19",
+    coverage: {
+      support: 32.69230769230769,
+      partial: 0,
+      notSupported: 67.3076923076923,
     },
-    "notes": null,
-    "type": "string"
+    notes: null,
+    type: "string",
   },
   "backdrop-filter": {
-    "slug": "css-backdrop-filter",
-    "description": "Lets you apply graphical effects such as blurring or color shifting to the area behind an element.",
-    "url": "https://www.caniemail.com/features/css-backdrop-filter/",
-    "last_test_date": "2024-01-17",
-    "coverage": {
-      "support": 37.83783783783784,
-      "partial": 0,
-      "notSupported": 62.16216216216216
+    slug: "css-backdrop-filter",
+    description:
+      "Lets you apply graphical effects such as blurring or color shifting to the area behind an element.",
+    url: "https://www.caniemail.com/features/css-backdrop-filter/",
+    last_test_date: "2024-01-17",
+    coverage: {
+      support: 37.83783783783784,
+      partial: 0,
+      notSupported: 62.16216216216216,
     },
-    "notes": null,
-    "type": "string"
+    notes: null,
+    type: "string",
   },
   "background-blend-mode": {
-    "slug": "css-background-blend-mode",
-    "description": "",
-    "url": "https://www.caniemail.com/features/css-background-blend-mode/",
-    "last_test_date": "2019-02-28",
-    "coverage": {
-      "support": 58.82352941176471,
-      "partial": 3.9215686274509802,
-      "notSupported": 37.254901960784316
+    slug: "css-background-blend-mode",
+    description: "",
+    url: "https://www.caniemail.com/features/css-background-blend-mode/",
+    last_test_date: "2019-02-28",
+    coverage: {
+      support: 58.82352941176471,
+      partial: 3.9215686274509802,
+      notSupported: 37.254901960784316,
     },
-    "notes": null,
-    "type": "string"
+    notes: null,
+    type: "string",
   },
   "background-clip": {
-    "slug": "css-background-clip",
-    "description": "",
-    "url": "https://www.caniemail.com/features/css-background-clip/",
-    "last_test_date": "2019-02-28",
-    "coverage": {
-      "support": 58.82352941176471,
-      "partial": 3.9215686274509802,
-      "notSupported": 37.254901960784316
+    slug: "css-background-clip",
+    description: "",
+    url: "https://www.caniemail.com/features/css-background-clip/",
+    last_test_date: "2019-02-28",
+    coverage: {
+      support: 58.82352941176471,
+      partial: 3.9215686274509802,
+      notSupported: 37.254901960784316,
     },
-    "notes": null,
-    "type": "string"
+    notes: null,
+    type: "string",
   },
   "background-color": {
-    "slug": "css-background-color",
-    "description": "",
-    "url": "https://www.caniemail.com/features/css-background-color/",
-    "last_test_date": "2019-02-28",
-    "coverage": {
-      "support": 90.19607843137256,
-      "partial": 9.803921568627452,
-      "notSupported": 0
+    slug: "css-background-color",
+    description: "",
+    url: "https://www.caniemail.com/features/css-background-color/",
+    last_test_date: "2019-02-28",
+    coverage: {
+      support: 90.19607843137256,
+      partial: 9.803921568627452,
+      notSupported: 0,
     },
-    "notes": null,
-    "type": "colors"
+    notes: null,
+    type: "colors",
   },
   "background-image": {
-    "slug": "css-background-image",
-    "description": "",
-    "url": "https://www.caniemail.com/features/css-background-image/",
-    "last_test_date": "2023-07-24",
-    "coverage": {
-      "support": 60,
-      "partial": 27.692307692307693,
-      "notSupported": 12.307692307692308
+    slug: "css-background-image",
+    description: "",
+    url: "https://www.caniemail.com/features/css-background-image/",
+    last_test_date: "2023-07-24",
+    coverage: {
+      support: 60,
+      partial: 27.692307692307693,
+      notSupported: 12.307692307692308,
     },
-    "notes": null,
-    "type": "assets"
+    notes: null,
+    type: "assets",
   },
   "background-origin": {
-    "slug": "css-background-origin",
-    "description": "",
-    "url": "https://www.caniemail.com/features/css-background-origin/",
-    "last_test_date": "2019-02-28",
-    "coverage": {
-      "support": 58.82352941176471,
-      "partial": 3.9215686274509802,
-      "notSupported": 37.254901960784316
+    slug: "css-background-origin",
+    description: "",
+    url: "https://www.caniemail.com/features/css-background-origin/",
+    last_test_date: "2019-02-28",
+    coverage: {
+      support: 58.82352941176471,
+      partial: 3.9215686274509802,
+      notSupported: 37.254901960784316,
     },
-    "notes": null,
-    "type": "string"
+    notes: null,
+    type: "string",
   },
   "background-position": {
-    "slug": "css-background-position",
-    "description": "",
-    "url": "https://www.caniemail.com/features/css-background-position/",
-    "last_test_date": "2019-02-28",
-    "coverage": {
-      "support": 81.13207547169812,
-      "partial": 7.547169811320755,
-      "notSupported": 11.320754716981133
+    slug: "css-background-position",
+    description: "",
+    url: "https://www.caniemail.com/features/css-background-position/",
+    last_test_date: "2019-02-28",
+    coverage: {
+      support: 81.13207547169812,
+      partial: 7.547169811320755,
+      notSupported: 11.320754716981133,
     },
-    "notes": null,
-    "type": "string"
+    notes: null,
+    type: "string",
   },
   "background-repeat": {
-    "slug": "css-background-repeat",
-    "description": "",
-    "url": "https://www.caniemail.com/features/css-background-repeat/",
-    "last_test_date": "2019-02-28",
-    "coverage": {
-      "support": 81.13207547169812,
-      "partial": 7.547169811320755,
-      "notSupported": 11.320754716981133
+    slug: "css-background-repeat",
+    description: "",
+    url: "https://www.caniemail.com/features/css-background-repeat/",
+    last_test_date: "2019-02-28",
+    coverage: {
+      support: 81.13207547169812,
+      partial: 7.547169811320755,
+      notSupported: 11.320754716981133,
     },
-    "notes": null,
-    "type": "string"
+    notes: null,
+    type: "string",
   },
   "background-size": {
-    "slug": "css-background-size",
-    "description": "",
-    "url": "https://www.caniemail.com/features/css-background-size/",
-    "last_test_date": "2019-02-28",
-    "coverage": {
-      "support": 72,
-      "partial": 4,
-      "notSupported": 24
+    slug: "css-background-size",
+    description: "",
+    url: "https://www.caniemail.com/features/css-background-size/",
+    last_test_date: "2019-02-28",
+    coverage: {
+      support: 72,
+      partial: 4,
+      notSupported: 24,
     },
-    "notes": null,
-    "type": "string"
+    notes: null,
+    type: "string",
   },
-  "background": {
-    "slug": "css-background",
-    "description": "",
-    "url": "https://www.caniemail.com/features/css-background/",
-    "last_test_date": "2023-07-24",
-    "coverage": {
-      "support": 57.6271186440678,
-      "partial": 40.67796610169492,
-      "notSupported": 1.694915254237288
+  background: {
+    slug: "css-background",
+    description: "",
+    url: "https://www.caniemail.com/features/css-background/",
+    last_test_date: "2023-07-24",
+    coverage: {
+      support: 57.6271186440678,
+      partial: 40.67796610169492,
+      notSupported: 1.694915254237288,
     },
-    "notes": null,
-    "type": "colors"
+    notes: null,
+    type: "colors",
   },
   "block-size": {
-    "slug": "css-block-inline-size",
-    "description": "Defines the horizontal or vertical size of an element's block, depending on its writing mode.",
-    "url": "https://www.caniemail.com/features/css-block-inline-size/",
-    "last_test_date": "2022-07-14",
-    "coverage": {
-      "support": 48.97959183673469,
-      "partial": 0,
-      "notSupported": 51.02040816326531
+    slug: "css-block-inline-size",
+    description:
+      "Defines the horizontal or vertical size of an element's block, depending on its writing mode.",
+    url: "https://www.caniemail.com/features/css-block-inline-size/",
+    last_test_date: "2022-07-14",
+    coverage: {
+      support: 48.97959183673469,
+      partial: 0,
+      notSupported: 51.02040816326531,
     },
-    "notes": null,
-    "type": "string"
+    notes: null,
+    type: "string",
   },
   "inline-size": {
-    "slug": "css-inline-size",
-    "description": "",
-    "url": "https://www.caniemail.com/features/css-inline-size/",
-    "last_test_date": "2019-02-28",
-    "coverage": {
-      "support": 41.66666666666667,
-      "partial": 0,
-      "notSupported": 58.333333333333336
+    slug: "css-inline-size",
+    description: "",
+    url: "https://www.caniemail.com/features/css-inline-size/",
+    last_test_date: "2019-02-28",
+    coverage: {
+      support: 41.66666666666667,
+      partial: 0,
+      notSupported: 58.333333333333336,
     },
-    "notes": null,
-    "type": "string"
+    notes: null,
+    type: "string",
   },
   "border-collapse": {
-    "slug": "css-border-collapse",
-    "description": "Sets whether cells inside a `<table>` have shared or separate borders.",
-    "url": "https://www.caniemail.com/features/css-border-collapse/",
-    "last_test_date": "2023-12-20",
-    "coverage": {
-      "support": 100,
-      "partial": 0,
-      "notSupported": 0
+    slug: "css-border-collapse",
+    description: "Sets whether cells inside a `<table>` have shared or separate borders.",
+    url: "https://www.caniemail.com/features/css-border-collapse/",
+    last_test_date: "2023-12-20",
+    coverage: {
+      support: 100,
+      partial: 0,
+      notSupported: 0,
     },
-    "notes": null,
-    "type": "string"
+    notes: null,
+    type: "string",
   },
   "border-image": {
-    "slug": "css-border-image",
-    "description": "",
-    "url": "https://www.caniemail.com/features/css-border-image/",
-    "last_test_date": "2019-02-28",
-    "coverage": {
-      "support": 48,
-      "partial": 0,
-      "notSupported": 52
+    slug: "css-border-image",
+    description: "",
+    url: "https://www.caniemail.com/features/css-border-image/",
+    last_test_date: "2019-02-28",
+    coverage: {
+      support: 48,
+      partial: 0,
+      notSupported: 52,
     },
-    "notes": null,
-    "type": "string"
+    notes: null,
+    type: "string",
   },
   "border-inline": {
-    "slug": "css-border-inline-block",
-    "description": "Support for the `border-inline` and `border-block` shorthand properties.",
-    "url": "https://www.caniemail.com/features/css-border-inline-block/",
-    "last_test_date": "2022-07-13",
-    "coverage": {
-      "support": 36.36363636363637,
-      "partial": 0,
-      "notSupported": 63.63636363636363
+    slug: "css-border-inline-block",
+    description: "Support for the `border-inline` and `border-block` shorthand properties.",
+    url: "https://www.caniemail.com/features/css-border-inline-block/",
+    last_test_date: "2022-07-13",
+    coverage: {
+      support: 36.36363636363637,
+      partial: 0,
+      notSupported: 63.63636363636363,
     },
-    "notes": null,
-    "type": "string"
+    notes: null,
+    type: "string",
   },
   "border-block": {
-    "slug": "css-border-inline-block",
-    "description": "Support for the `border-inline` and `border-block` shorthand properties.",
-    "url": "https://www.caniemail.com/features/css-border-inline-block/",
-    "last_test_date": "2022-07-13",
-    "coverage": {
-      "support": 36.36363636363637,
-      "partial": 0,
-      "notSupported": 63.63636363636363
+    slug: "css-border-inline-block",
+    description: "Support for the `border-inline` and `border-block` shorthand properties.",
+    url: "https://www.caniemail.com/features/css-border-inline-block/",
+    last_test_date: "2022-07-13",
+    coverage: {
+      support: 36.36363636363637,
+      partial: 0,
+      notSupported: 63.63636363636363,
     },
-    "notes": null,
-    "type": "string"
+    notes: null,
+    type: "string",
   },
   "border-radius": {
-    "slug": "css-border-radius",
-    "description": "The `border-radius` CSS property rounds the corners of an element's outer border edge.",
-    "url": "https://www.caniemail.com/features/css-border-radius/",
-    "last_test_date": "2021-03-09",
-    "coverage": {
-      "support": 64.15094339622641,
-      "partial": 11.320754716981133,
-      "notSupported": 24.528301886792452
+    slug: "css-border-radius",
+    description:
+      "The `border-radius` CSS property rounds the corners of an element's outer border edge.",
+    url: "https://www.caniemail.com/features/css-border-radius/",
+    last_test_date: "2021-03-09",
+    coverage: {
+      support: 64.15094339622641,
+      partial: 11.320754716981133,
+      notSupported: 24.528301886792452,
     },
-    "notes": null,
-    "type": "radii"
+    notes: null,
+    type: "radii",
   },
   "border-spacing": {
-    "slug": "css-border-spacing",
-    "description": "Sets the distance between the borders of adjacent cells in a `<table>`.",
-    "url": "https://www.caniemail.com/features/css-border-spacing/",
-    "last_test_date": "2023-12-20",
-    "coverage": {
-      "support": 81.25,
-      "partial": 0,
-      "notSupported": 18.75
+    slug: "css-border-spacing",
+    description: "Sets the distance between the borders of adjacent cells in a `<table>`.",
+    url: "https://www.caniemail.com/features/css-border-spacing/",
+    last_test_date: "2023-12-20",
+    coverage: {
+      support: 81.25,
+      partial: 0,
+      notSupported: 18.75,
     },
-    "notes": null,
-    "type": "string"
+    notes: null,
+    type: "string",
   },
-  "border": {
-    "slug": "css-border",
-    "description": "The `border` properties set an element's border. This page accounts for all `border` longhands and shorthands.",
-    "url": "https://www.caniemail.com/features/css-border/",
-    "last_test_date": "2021-07-22",
-    "coverage": {
-      "support": 87.2340425531915,
-      "partial": 12.76595744680851,
-      "notSupported": 0
+  border: {
+    slug: "css-border",
+    description:
+      "The `border` properties set an element's border. This page accounts for all `border` longhands and shorthands.",
+    url: "https://www.caniemail.com/features/css-border/",
+    last_test_date: "2021-07-22",
+    coverage: {
+      support: 87.2340425531915,
+      partial: 12.76595744680851,
+      notSupported: 0,
     },
-    "notes": "This pages reports support for all CSS properties related to `border`: `border`, `border-width`, `border-style`, `border-color`, `border-top`, `border-bottom`, `border-left`, `border-right`, `border-top-width`, `border-top-style`, `border-top-color`, `border-bottom-width`, `border-bottom-style`, `border-bottom-color`, `border-left-width`, `border-left-style`, `border-left-color`, `border-right-width`, `border-right-style`, `border-right-color`.",
-    "type": "borders"
+    notes:
+      "This pages reports support for all CSS properties related to `border`: `border`, `border-width`, `border-style`, `border-color`, `border-top`, `border-bottom`, `border-left`, `border-right`, `border-top-width`, `border-top-style`, `border-top-color`, `border-bottom-width`, `border-bottom-style`, `border-bottom-color`, `border-left-width`, `border-left-style`, `border-left-color`, `border-right-width`, `border-right-style`, `border-right-color`.",
+    type: "borders",
   },
   "box-shadow": {
-    "slug": "css-box-shadow",
-    "description": "Adds shadow effects around an element's frame.",
-    "url": "https://www.caniemail.com/features/css-box-shadow/",
-    "last_test_date": "2023-12-20",
-    "coverage": {
-      "support": 45.45454545454545,
-      "partial": 6.0606060606060606,
-      "notSupported": 48.484848484848484
+    slug: "css-box-shadow",
+    description: "Adds shadow effects around an element's frame.",
+    url: "https://www.caniemail.com/features/css-box-shadow/",
+    last_test_date: "2023-12-20",
+    coverage: {
+      support: 45.45454545454545,
+      partial: 6.0606060606060606,
+      notSupported: 48.484848484848484,
     },
-    "notes": null,
-    "type": "shadows"
+    notes: null,
+    type: "shadows",
   },
   "box-sizing": {
-    "slug": "css-box-sizing",
-    "description": "",
-    "url": "https://www.caniemail.com/features/css-box-sizing/",
-    "last_test_date": "2019-02-28",
-    "coverage": {
-      "support": 68,
-      "partial": 0,
-      "notSupported": 32
+    slug: "css-box-sizing",
+    description: "",
+    url: "https://www.caniemail.com/features/css-box-sizing/",
+    last_test_date: "2019-02-28",
+    coverage: {
+      support: 68,
+      partial: 0,
+      notSupported: 32,
     },
-    "notes": null,
-    "type": "string"
+    notes: null,
+    type: "string",
   },
   "caption-side": {
-    "slug": "css-caption-side",
-    "description": "The `caption-side` CSS property puts the content of a table's `<caption>` on the specified side.",
-    "url": "https://www.caniemail.com/features/css-caption-side/",
-    "last_test_date": "2021-05-13",
-    "coverage": {
-      "support": 88.23529411764706,
-      "partial": 0,
-      "notSupported": 11.76470588235294
+    slug: "css-caption-side",
+    description:
+      "The `caption-side` CSS property puts the content of a table's `<caption>` on the specified side.",
+    url: "https://www.caniemail.com/features/css-caption-side/",
+    last_test_date: "2021-05-13",
+    coverage: {
+      support: 88.23529411764706,
+      partial: 0,
+      notSupported: 11.76470588235294,
     },
-    "notes": null,
-    "type": "string"
+    notes: null,
+    type: "string",
   },
-  "clear": {
-    "slug": "css-clear",
-    "description": "Sets whether an element must be moved below (cleared) floating elements that precede it.",
-    "url": "https://www.caniemail.com/features/css-clear/",
-    "last_test_date": "2024-09-06",
-    "coverage": {
-      "support": 32.142857142857146,
-      "partial": 46.42857142857143,
-      "notSupported": 21.428571428571427
+  clear: {
+    slug: "css-clear",
+    description:
+      "Sets whether an element must be moved below (cleared) floating elements that precede it.",
+    url: "https://www.caniemail.com/features/css-clear/",
+    last_test_date: "2024-09-06",
+    coverage: {
+      support: 32.142857142857146,
+      partial: 46.42857142857143,
+      notSupported: 21.428571428571427,
     },
-    "notes": null,
-    "type": "string"
+    notes: null,
+    type: "string",
   },
   "clip-path": {
-    "slug": "css-clip-path",
-    "description": "",
-    "url": "https://www.caniemail.com/features/css-clip-path/",
-    "last_test_date": "2021-03-09",
-    "coverage": {
-      "support": 40.35087719298245,
-      "partial": 1.7543859649122806,
-      "notSupported": 57.89473684210527
+    slug: "css-clip-path",
+    description: "",
+    url: "https://www.caniemail.com/features/css-clip-path/",
+    last_test_date: "2021-03-09",
+    coverage: {
+      support: 40.35087719298245,
+      partial: 1.7543859649122806,
+      notSupported: 57.89473684210527,
     },
-    "notes": null,
-    "type": "string"
+    notes: null,
+    type: "string",
   },
   "column-count": {
-    "slug": "css-column-count",
-    "description": "",
-    "url": "https://www.caniemail.com/features/css-column-count/",
-    "last_test_date": "2019-02-28",
-    "coverage": {
-      "support": 68.08510638297872,
-      "partial": 0,
-      "notSupported": 31.914893617021278
+    slug: "css-column-count",
+    description: "",
+    url: "https://www.caniemail.com/features/css-column-count/",
+    last_test_date: "2019-02-28",
+    coverage: {
+      support: 68.08510638297872,
+      partial: 0,
+      notSupported: 31.914893617021278,
     },
-    "notes": null,
-    "type": "string"
+    notes: null,
+    type: "string",
   },
-  "cursor": {
-    "slug": "css-cursor",
-    "description": "The cursor CSS property sets the mouse cursor, if any, to show when the mouse pointer is over an element.",
-    "url": "https://www.caniemail.com/features/css-cursor/",
-    "last_test_date": "2025-07-02",
-    "coverage": {
-      "support": 11.11111111111111,
-      "partial": 27.77777777777778,
-      "notSupported": 61.111111111111114
+  cursor: {
+    slug: "css-cursor",
+    description:
+      "The cursor CSS property sets the mouse cursor, if any, to show when the mouse pointer is over an element.",
+    url: "https://www.caniemail.com/features/css-cursor/",
+    last_test_date: "2025-07-02",
+    coverage: {
+      support: 11.11111111111111,
+      partial: 27.77777777777778,
+      notSupported: 61.111111111111114,
     },
-    "notes": "Cursor appearance on Android mobile devices depends on external pointer device/mouse. Cursor on iOS mobile devices also requires assistive touch to be enabled, and does not appear to respond to content.",
-    "type": "cursor"
+    notes:
+      "Cursor appearance on Android mobile devices depends on external pointer device/mouse. Cursor on iOS mobile devices also requires assistive touch to be enabled, and does not appear to respond to content.",
+    type: "cursor",
   },
-  "direction": {
-    "slug": "css-direction",
-    "description": "Sets the direction of text or table columns.",
-    "url": "https://www.caniemail.com/features/css-direction/",
-    "last_test_date": "2021-10-05",
-    "coverage": {
-      "support": 97.82608695652173,
-      "partial": 2.1739130434782608,
-      "notSupported": 0
+  direction: {
+    slug: "css-direction",
+    description: "Sets the direction of text or table columns.",
+    url: "https://www.caniemail.com/features/css-direction/",
+    last_test_date: "2021-10-05",
+    coverage: {
+      support: 97.82608695652173,
+      partial: 2.1739130434782608,
+      notSupported: 0,
     },
-    "notes": null,
-    "type": "string"
+    notes: null,
+    type: "string",
   },
-  "display": {
-    "slug": "css-display",
-    "description": "Sets whether an element is treated as a block or inline element and the layout used for its children.",
-    "url": "https://www.caniemail.com/features/css-display/",
-    "last_test_date": "2021-12-01",
-    "coverage": {
-      "support": 56.52173913043478,
-      "partial": 43.47826086956522,
-      "notSupported": 0
+  display: {
+    slug: "css-display",
+    description:
+      "Sets whether an element is treated as a block or inline element and the layout used for its children.",
+    url: "https://www.caniemail.com/features/css-display/",
+    last_test_date: "2021-12-01",
+    coverage: {
+      support: 56.52173913043478,
+      partial: 43.47826086956522,
+      notSupported: 0,
     },
-    "notes": null,
-    "type": "string"
+    notes: null,
+    type: "string",
   },
   "empty-cells": {
-    "slug": "css-empty-cells",
-    "description": "Sets whether borders and backgrounds appear around `<table>` cells that have no visible content.",
-    "url": "https://www.caniemail.com/features/css-empty-cells/",
-    "last_test_date": "2024-08-23",
-    "coverage": {
-      "support": 60,
-      "partial": 0,
-      "notSupported": 40
+    slug: "css-empty-cells",
+    description:
+      "Sets whether borders and backgrounds appear around `<table>` cells that have no visible content.",
+    url: "https://www.caniemail.com/features/css-empty-cells/",
+    last_test_date: "2024-08-23",
+    coverage: {
+      support: 60,
+      partial: 0,
+      notSupported: 40,
     },
-    "notes": null,
-    "type": "string"
+    notes: null,
+    type: "string",
   },
-  "filter": {
-    "slug": "css-filter",
-    "description": "Tests with values `blur`, `brightness`, `grayscale`, `hue-rotate`, `invert`, `opacity`, `saturate`, `sepia` and `shadow`.",
-    "url": "https://www.caniemail.com/features/css-filter/",
-    "last_test_date": "2024-01-03",
-    "coverage": {
-      "support": 44,
-      "partial": 2,
-      "notSupported": 54
+  filter: {
+    slug: "css-filter",
+    description:
+      "Tests with values `blur`, `brightness`, `grayscale`, `hue-rotate`, `invert`, `opacity`, `saturate`, `sepia` and `shadow`.",
+    url: "https://www.caniemail.com/features/css-filter/",
+    last_test_date: "2024-01-03",
+    coverage: {
+      support: 44,
+      partial: 2,
+      notSupported: 54,
     },
-    "notes": null,
-    "type": "string"
+    notes: null,
+    type: "string",
   },
-  "float": {
-    "slug": "css-float",
-    "description": "",
-    "url": "https://www.caniemail.com/features/css-float/",
-    "last_test_date": "2024-05-08",
-    "coverage": {
-      "support": 68.33333333333333,
-      "partial": 20,
-      "notSupported": 11.666666666666666
+  float: {
+    slug: "css-float",
+    description: "",
+    url: "https://www.caniemail.com/features/css-float/",
+    last_test_date: "2024-05-08",
+    coverage: {
+      support: 68.33333333333333,
+      partial: 20,
+      notSupported: 11.666666666666666,
     },
-    "notes": null,
-    "type": "string"
+    notes: null,
+    type: "string",
   },
   "font-kerning": {
-    "slug": "css-font-kerning",
-    "description": "",
-    "url": "https://www.caniemail.com/features/css-font-kerning/",
-    "last_test_date": "2022-08-01",
-    "coverage": {
-      "support": 66.66666666666666,
-      "partial": 0,
-      "notSupported": 33.33333333333333
+    slug: "css-font-kerning",
+    description: "",
+    url: "https://www.caniemail.com/features/css-font-kerning/",
+    last_test_date: "2022-08-01",
+    coverage: {
+      support: 66.66666666666666,
+      partial: 0,
+      notSupported: 33.33333333333333,
     },
-    "notes": null,
-    "type": "string"
+    notes: null,
+    type: "string",
   },
   "font-size": {
-    "slug": "css-font-size",
-    "description": "Sets the size of the font.",
-    "url": "https://www.caniemail.com/features/css-font-size/",
-    "last_test_date": "2024-02-28",
-    "coverage": {
-      "support": 58.82352941176471,
-      "partial": 41.17647058823529,
-      "notSupported": 0
+    slug: "css-font-size",
+    description: "Sets the size of the font.",
+    url: "https://www.caniemail.com/features/css-font-size/",
+    last_test_date: "2024-02-28",
+    coverage: {
+      support: 58.82352941176471,
+      partial: 41.17647058823529,
+      notSupported: 0,
     },
-    "notes": null,
-    "type": "fontSizes"
+    notes: null,
+    type: "fontSizes",
   },
   "font-stretch": {
-    "slug": "css-font-stretch",
-    "description": "Selecting different font widths (e.g. condensed, expanded)",
-    "url": "https://www.caniemail.com/features/css-font-stretch/",
-    "last_test_date": "2023-09-23",
-    "coverage": {
-      "support": 51.724137931034484,
-      "partial": 0,
-      "notSupported": 48.275862068965516
+    slug: "css-font-stretch",
+    description: "Selecting different font widths (e.g. condensed, expanded)",
+    url: "https://www.caniemail.com/features/css-font-stretch/",
+    last_test_date: "2023-09-23",
+    coverage: {
+      support: 51.724137931034484,
+      partial: 0,
+      notSupported: 48.275862068965516,
     },
-    "notes": null,
-    "type": "string"
+    notes: null,
+    type: "string",
   },
   "font-weight": {
-    "slug": "css-font-weight",
-    "description": "",
-    "url": "https://www.caniemail.com/features/css-font-weight/",
-    "last_test_date": "2022-06-23",
-    "coverage": {
-      "support": 76.5625,
-      "partial": 23.4375,
-      "notSupported": 0
+    slug: "css-font-weight",
+    description: "",
+    url: "https://www.caniemail.com/features/css-font-weight/",
+    last_test_date: "2022-06-23",
+    coverage: {
+      support: 76.5625,
+      partial: 23.4375,
+      notSupported: 0,
     },
-    "notes": null,
-    "type": "fontWeights"
+    notes: null,
+    type: "fontWeights",
   },
   "hyphenate-character": {
-    "slug": "css-hyphenate-character",
-    "description": "Sets the character (or string) used at the end of a line before a hyphenation break.",
-    "url": "https://www.caniemail.com/features/css-hyphenate-character/",
-    "last_test_date": "2024-06-19",
-    "coverage": {
-      "support": 17.142857142857142,
-      "partial": 2.857142857142857,
-      "notSupported": 80
+    slug: "css-hyphenate-character",
+    description:
+      "Sets the character (or string) used at the end of a line before a hyphenation break.",
+    url: "https://www.caniemail.com/features/css-hyphenate-character/",
+    last_test_date: "2024-06-19",
+    coverage: {
+      support: 17.142857142857142,
+      partial: 2.857142857142857,
+      notSupported: 80,
     },
-    "notes": null,
-    "type": "string"
+    notes: null,
+    type: "string",
   },
   "hyphenate-limit-chars": {
-    "slug": "css-hyphenate-limit-chars",
-    "description": "Specifies the minimum word length to allow hyphenation of words as well as the minimum number of characters before and after the hyphen.",
-    "url": "https://www.caniemail.com/features/css-hyphenate-limit-chars/",
-    "last_test_date": "2024-08-08",
-    "coverage": {
-      "support": 3.8461538461538463,
-      "partial": 0,
-      "notSupported": 96.15384615384616
+    slug: "css-hyphenate-limit-chars",
+    description:
+      "Specifies the minimum word length to allow hyphenation of words as well as the minimum number of characters before and after the hyphen.",
+    url: "https://www.caniemail.com/features/css-hyphenate-limit-chars/",
+    last_test_date: "2024-08-08",
+    coverage: {
+      support: 3.8461538461538463,
+      partial: 0,
+      notSupported: 96.15384615384616,
     },
-    "notes": null,
-    "type": "string"
+    notes: null,
+    type: "string",
   },
-  "hyphens": {
-    "slug": "css-hyphens",
-    "description": "",
-    "url": "https://www.caniemail.com/features/css-hyphens/",
-    "last_test_date": "2022-08-03",
-    "coverage": {
-      "support": 47.22222222222222,
-      "partial": 0,
-      "notSupported": 52.77777777777778
+  hyphens: {
+    slug: "css-hyphens",
+    description: "",
+    url: "https://www.caniemail.com/features/css-hyphens/",
+    last_test_date: "2022-08-03",
+    coverage: {
+      support: 47.22222222222222,
+      partial: 0,
+      notSupported: 52.77777777777778,
     },
-    "notes": null,
-    "type": "string"
+    notes: null,
+    type: "string",
   },
-  "inset": {
-    "slug": "css-inset",
-    "description": "Shorthand that corresponds to the `top`, `right`, `bottom`, and/or `left` properties",
-    "url": "https://www.caniemail.com/features/css-inset/",
-    "last_test_date": "2024-05-29",
-    "coverage": {
-      "support": 12,
-      "partial": 0,
-      "notSupported": 88
+  inset: {
+    slug: "css-inset",
+    description:
+      "Shorthand that corresponds to the `top`, `right`, `bottom`, and/or `left` properties",
+    url: "https://www.caniemail.com/features/css-inset/",
+    last_test_date: "2024-05-29",
+    coverage: {
+      support: 12,
+      partial: 0,
+      notSupported: 88,
     },
-    "notes": null,
-    "type": "string"
+    notes: null,
+    type: "string",
   },
   "justify-content": {
-    "slug": "css-justify-content",
-    "description": "",
-    "url": "https://www.caniemail.com/features/css-justify-content/",
-    "last_test_date": "2021-03-09",
-    "coverage": {
-      "support": 57.6271186440678,
-      "partial": 0,
-      "notSupported": 42.3728813559322
+    slug: "css-justify-content",
+    description: "",
+    url: "https://www.caniemail.com/features/css-justify-content/",
+    last_test_date: "2021-03-09",
+    coverage: {
+      support: 57.6271186440678,
+      partial: 0,
+      notSupported: 42.3728813559322,
     },
-    "notes": null,
-    "type": "string"
+    notes: null,
+    type: "string",
   },
   "letter-spacing": {
-    "slug": "css-letter-spacing",
-    "description": "",
-    "url": "https://www.caniemail.com/features/css-letter-spacing/",
-    "last_test_date": "2020-01-19",
-    "coverage": {
-      "support": 87.75510204081633,
-      "partial": 12.244897959183673,
-      "notSupported": 0
+    slug: "css-letter-spacing",
+    description: "",
+    url: "https://www.caniemail.com/features/css-letter-spacing/",
+    last_test_date: "2020-01-19",
+    coverage: {
+      support: 87.75510204081633,
+      partial: 12.244897959183673,
+      notSupported: 0,
     },
-    "notes": null,
-    "type": "letterSpacings"
+    notes: null,
+    type: "letterSpacings",
   },
   "line-height": {
-    "slug": "css-line-height",
-    "description": "Sets the height of a line box. Or, basically, the height of a line of text.",
-    "url": "https://www.caniemail.com/features/css-line-height/",
-    "last_test_date": "2021-10-02",
-    "coverage": {
-      "support": 82.97872340425532,
-      "partial": 17.02127659574468,
-      "notSupported": 0
+    slug: "css-line-height",
+    description: "Sets the height of a line box. Or, basically, the height of a line of text.",
+    url: "https://www.caniemail.com/features/css-line-height/",
+    last_test_date: "2021-10-02",
+    coverage: {
+      support: 82.97872340425532,
+      partial: 17.02127659574468,
+      notSupported: 0,
     },
-    "notes": null,
-    "type": "lineHeights"
+    notes: null,
+    type: "lineHeights",
   },
   "list-style-image": {
-    "slug": "css-list-style-image",
-    "description": null,
-    "url": "https://www.caniemail.com/features/css-list-style-image/",
-    "last_test_date": "2020-04-20",
-    "coverage": {
-      "support": 52,
-      "partial": 0,
-      "notSupported": 48
+    slug: "css-list-style-image",
+    description: null,
+    url: "https://www.caniemail.com/features/css-list-style-image/",
+    last_test_date: "2020-04-20",
+    coverage: {
+      support: 52,
+      partial: 0,
+      notSupported: 48,
     },
-    "notes": null,
-    "type": "string"
+    notes: null,
+    type: "string",
   },
   "list-style-position": {
-    "slug": "css-list-style-position",
-    "description": null,
-    "url": "https://www.caniemail.com/features/css-list-style-position/",
-    "last_test_date": "2020-04-20",
-    "coverage": {
-      "support": 88,
-      "partial": 0,
-      "notSupported": 12
+    slug: "css-list-style-position",
+    description: null,
+    url: "https://www.caniemail.com/features/css-list-style-position/",
+    last_test_date: "2020-04-20",
+    coverage: {
+      support: 88,
+      partial: 0,
+      notSupported: 12,
     },
-    "notes": null,
-    "type": "string"
+    notes: null,
+    type: "string",
   },
   "list-style-type": {
-    "slug": "css-list-style-type",
-    "description": null,
-    "url": "https://www.caniemail.com/features/css-list-style-type/",
-    "last_test_date": "2020-04-20",
-    "coverage": {
-      "support": 100,
-      "partial": 0,
-      "notSupported": 0
+    slug: "css-list-style-type",
+    description: null,
+    url: "https://www.caniemail.com/features/css-list-style-type/",
+    last_test_date: "2020-04-20",
+    coverage: {
+      support: 100,
+      partial: 0,
+      notSupported: 0,
     },
-    "notes": "Tests and support are based on the CSS Level 2 specification. `<custom-ident>`, `symbols()` and `<string>` values are not tested here.",
-    "type": "string"
+    notes:
+      "Tests and support are based on the CSS Level 2 specification. `<custom-ident>`, `symbols()` and `<string>` values are not tested here.",
+    type: "string",
   },
   "list-style": {
-    "slug": "css-list-style",
-    "description": null,
-    "url": "https://www.caniemail.com/features/css-list-style/",
-    "last_test_date": "2020-04-20",
-    "coverage": {
-      "support": 62,
-      "partial": 36,
-      "notSupported": 2
+    slug: "css-list-style",
+    description: null,
+    url: "https://www.caniemail.com/features/css-list-style/",
+    last_test_date: "2020-04-20",
+    coverage: {
+      support: 62,
+      partial: 36,
+      notSupported: 2,
     },
-    "notes": "Tests and support are based on the CSS Level 2 specification. `<custom-ident>`, `symbols()` and `<string>` values are not tested here.",
-    "type": "string"
+    notes:
+      "Tests and support are based on the CSS Level 2 specification. `<custom-ident>`, `symbols()` and `<string>` values are not tested here.",
+    type: "string",
   },
   "margin-block-start": {
-    "slug": "css-margin-block-start-end",
-    "description": "Support for the `margin-block-start` and `margin-block-end` css properties.",
-    "url": "https://www.caniemail.com/features/css-margin-block-start-end/",
-    "last_test_date": "2022-07-13",
-    "coverage": {
-      "support": 45.45454545454545,
-      "partial": 0,
-      "notSupported": 54.54545454545454
+    slug: "css-margin-block-start-end",
+    description: "Support for the `margin-block-start` and `margin-block-end` css properties.",
+    url: "https://www.caniemail.com/features/css-margin-block-start-end/",
+    last_test_date: "2022-07-13",
+    coverage: {
+      support: 45.45454545454545,
+      partial: 0,
+      notSupported: 54.54545454545454,
     },
-    "notes": null,
-    "type": "string"
+    notes: null,
+    type: "string",
   },
   "margin-block-end": {
-    "slug": "css-margin-block-start-end",
-    "description": "Support for the `margin-block-start` and `margin-block-end` css properties.",
-    "url": "https://www.caniemail.com/features/css-margin-block-start-end/",
-    "last_test_date": "2022-07-13",
-    "coverage": {
-      "support": 45.45454545454545,
-      "partial": 0,
-      "notSupported": 54.54545454545454
+    slug: "css-margin-block-start-end",
+    description: "Support for the `margin-block-start` and `margin-block-end` css properties.",
+    url: "https://www.caniemail.com/features/css-margin-block-start-end/",
+    last_test_date: "2022-07-13",
+    coverage: {
+      support: 45.45454545454545,
+      partial: 0,
+      notSupported: 54.54545454545454,
     },
-    "notes": null,
-    "type": "string"
+    notes: null,
+    type: "string",
   },
   "margin-inline": {
-    "slug": "css-margin-inline-block",
-    "description": "Support for the `margin-inline` and `margin-block` shorthand properties.",
-    "url": "https://www.caniemail.com/features/css-margin-inline-block/",
-    "last_test_date": "2022-07-12",
-    "coverage": {
-      "support": 41.81818181818181,
-      "partial": 0,
-      "notSupported": 58.18181818181818
+    slug: "css-margin-inline-block",
+    description: "Support for the `margin-inline` and `margin-block` shorthand properties.",
+    url: "https://www.caniemail.com/features/css-margin-inline-block/",
+    last_test_date: "2022-07-12",
+    coverage: {
+      support: 41.81818181818181,
+      partial: 0,
+      notSupported: 58.18181818181818,
     },
-    "notes": null,
-    "type": "string"
+    notes: null,
+    type: "string",
   },
   "margin-block": {
-    "slug": "css-margin-inline-block",
-    "description": "Support for the `margin-inline` and `margin-block` shorthand properties.",
-    "url": "https://www.caniemail.com/features/css-margin-inline-block/",
-    "last_test_date": "2022-07-12",
-    "coverage": {
-      "support": 41.81818181818181,
-      "partial": 0,
-      "notSupported": 58.18181818181818
+    slug: "css-margin-inline-block",
+    description: "Support for the `margin-inline` and `margin-block` shorthand properties.",
+    url: "https://www.caniemail.com/features/css-margin-inline-block/",
+    last_test_date: "2022-07-12",
+    coverage: {
+      support: 41.81818181818181,
+      partial: 0,
+      notSupported: 58.18181818181818,
     },
-    "notes": null,
-    "type": "string"
+    notes: null,
+    type: "string",
   },
   "margin-inline-start": {
-    "slug": "css-margin-inline-start-end",
-    "description": "Support for the `margin-inline-start` and `margin-inline-end` css properties.",
-    "url": "https://www.caniemail.com/features/css-margin-inline-start-end/",
-    "last_test_date": "2022-07-13",
-    "coverage": {
-      "support": 45.45454545454545,
-      "partial": 0,
-      "notSupported": 54.54545454545454
+    slug: "css-margin-inline-start-end",
+    description: "Support for the `margin-inline-start` and `margin-inline-end` css properties.",
+    url: "https://www.caniemail.com/features/css-margin-inline-start-end/",
+    last_test_date: "2022-07-13",
+    coverage: {
+      support: 45.45454545454545,
+      partial: 0,
+      notSupported: 54.54545454545454,
     },
-    "notes": null,
-    "type": "string"
+    notes: null,
+    type: "string",
   },
   "margin-inline-end": {
-    "slug": "css-margin-inline-start-end",
-    "description": "Support for the `margin-inline-start` and `margin-inline-end` css properties.",
-    "url": "https://www.caniemail.com/features/css-margin-inline-start-end/",
-    "last_test_date": "2022-07-13",
-    "coverage": {
-      "support": 45.45454545454545,
-      "partial": 0,
-      "notSupported": 54.54545454545454
+    slug: "css-margin-inline-start-end",
+    description: "Support for the `margin-inline-start` and `margin-inline-end` css properties.",
+    url: "https://www.caniemail.com/features/css-margin-inline-start-end/",
+    last_test_date: "2022-07-13",
+    coverage: {
+      support: 45.45454545454545,
+      partial: 0,
+      notSupported: 54.54545454545454,
     },
-    "notes": null,
-    "type": "string"
+    notes: null,
+    type: "string",
   },
-  "margin": {
-    "slug": "css-margin",
-    "description": "Support for the `margin` shorthand property and the `margin-left`, `margin-right`, `margin-top`, `margin-bottom` properties.",
-    "url": "https://www.caniemail.com/features/css-margin/",
-    "last_test_date": "2019-10-01",
-    "coverage": {
-      "support": 61.40350877192983,
-      "partial": 38.59649122807017,
-      "notSupported": 0
+  margin: {
+    slug: "css-margin",
+    description:
+      "Support for the `margin` shorthand property and the `margin-left`, `margin-right`, `margin-top`, `margin-bottom` properties.",
+    url: "https://www.caniemail.com/features/css-margin/",
+    last_test_date: "2019-10-01",
+    coverage: {
+      support: 61.40350877192983,
+      partial: 38.59649122807017,
+      notSupported: 0,
     },
-    "notes": null,
-    "type": "spacing"
+    notes: null,
+    type: "spacing",
   },
   "mask-image": {
-    "slug": "css-mask-image",
-    "description": "Sets the image that is used as mask layer for an element",
-    "url": "https://www.caniemail.com/features/css-mask-image/",
-    "last_test_date": "2024-11-27",
-    "coverage": {
-      "support": 27.027027027027028,
-      "partial": 0,
-      "notSupported": 72.97297297297297
+    slug: "css-mask-image",
+    description: "Sets the image that is used as mask layer for an element",
+    url: "https://www.caniemail.com/features/css-mask-image/",
+    last_test_date: "2024-11-27",
+    coverage: {
+      support: 27.027027027027028,
+      partial: 0,
+      notSupported: 72.97297297297297,
     },
-    "notes": null,
-    "type": "string"
+    notes: null,
+    type: "string",
   },
   "max-block-size": {
-    "slug": "css-max-block-size",
-    "description": "",
-    "url": "https://www.caniemail.com/features/css-max-block-size/",
-    "last_test_date": "2022-09-01",
-    "coverage": {
-      "support": 50,
-      "partial": 0,
-      "notSupported": 50
+    slug: "css-max-block-size",
+    description: "",
+    url: "https://www.caniemail.com/features/css-max-block-size/",
+    last_test_date: "2022-09-01",
+    coverage: {
+      support: 50,
+      partial: 0,
+      notSupported: 50,
     },
-    "notes": null,
-    "type": "string"
+    notes: null,
+    type: "string",
   },
   "max-inline-size": {
-    "slug": "css-max-inline-size",
-    "description": "Defines the horizontal or vertical maximum size of an element's block, depending on its writing mode",
-    "url": "https://www.caniemail.com/features/css-max-inline-size/",
-    "last_test_date": "2024-05-31",
-    "coverage": {
-      "support": 25,
-      "partial": 0,
-      "notSupported": 75
+    slug: "css-max-inline-size",
+    description:
+      "Defines the horizontal or vertical maximum size of an element's block, depending on its writing mode",
+    url: "https://www.caniemail.com/features/css-max-inline-size/",
+    last_test_date: "2024-05-31",
+    coverage: {
+      support: 25,
+      partial: 0,
+      notSupported: 75,
     },
-    "notes": null,
-    "type": "string"
+    notes: null,
+    type: "string",
   },
   "max-width": {
-    "slug": "css-max-width",
-    "description": "This is the description of the `max-width` property.",
-    "url": "https://www.caniemail.com/features/css-max-width/",
-    "last_test_date": "2019-08-02",
-    "coverage": {
-      "support": 78.57142857142857,
-      "partial": 14.285714285714285,
-      "notSupported": 7.142857142857142
+    slug: "css-max-width",
+    description: "This is the description of the `max-width` property.",
+    url: "https://www.caniemail.com/features/css-max-width/",
+    last_test_date: "2019-08-02",
+    coverage: {
+      support: 78.57142857142857,
+      partial: 14.285714285714285,
+      notSupported: 7.142857142857142,
     },
-    "notes": null,
-    "type": "sizes"
+    notes: null,
+    type: "sizes",
   },
   "min-block-size": {
-    "slug": "css-min-block-size",
-    "description": "Defines the minimum horizontal or vertical size of an element's block, depending on its writing mode",
-    "url": "https://www.caniemail.com/features/css-min-block-size/",
-    "last_test_date": "2024-05-31",
-    "coverage": {
-      "support": 25,
-      "partial": 0,
-      "notSupported": 75
+    slug: "css-min-block-size",
+    description:
+      "Defines the minimum horizontal or vertical size of an element's block, depending on its writing mode",
+    url: "https://www.caniemail.com/features/css-min-block-size/",
+    last_test_date: "2024-05-31",
+    coverage: {
+      support: 25,
+      partial: 0,
+      notSupported: 75,
     },
-    "notes": null,
-    "type": "string"
+    notes: null,
+    type: "string",
   },
   "min-inline-size": {
-    "slug": "css-min-inline-size",
-    "description": "",
-    "url": "https://www.caniemail.com/features/css-min-inline-size/",
-    "last_test_date": "2022-08-30",
-    "coverage": {
-      "support": 48.64864864864865,
-      "partial": 0,
-      "notSupported": 51.35135135135135
+    slug: "css-min-inline-size",
+    description: "",
+    url: "https://www.caniemail.com/features/css-min-inline-size/",
+    last_test_date: "2022-08-30",
+    coverage: {
+      support: 48.64864864864865,
+      partial: 0,
+      notSupported: 51.35135135135135,
     },
-    "notes": null,
-    "type": "string"
+    notes: null,
+    type: "string",
   },
   "mix-blend-mode": {
-    "slug": "css-mix-blend-mode",
-    "description": "",
-    "url": "https://www.caniemail.com/features/css-mix-blend-mode/",
-    "last_test_date": "2020-12-12",
-    "coverage": {
-      "support": 60.71428571428571,
-      "partial": 3.571428571428571,
-      "notSupported": 35.714285714285715
+    slug: "css-mix-blend-mode",
+    description: "",
+    url: "https://www.caniemail.com/features/css-mix-blend-mode/",
+    last_test_date: "2020-12-12",
+    coverage: {
+      support: 60.71428571428571,
+      partial: 3.571428571428571,
+      notSupported: 35.714285714285715,
     },
-    "notes": null,
-    "type": "string"
+    notes: null,
+    type: "string",
   },
   "object-fit": {
-    "slug": "css-object-fit",
-    "description": "The `object-fit` CSS property sets how the content of a replaced element, such as an `<img>` or `<video>`, should be resized to fit its container.",
-    "url": "https://www.caniemail.com/features/css-object-fit/",
-    "last_test_date": "2021-07-15",
-    "coverage": {
-      "support": 58.82352941176471,
-      "partial": 3.9215686274509802,
-      "notSupported": 37.254901960784316
+    slug: "css-object-fit",
+    description:
+      "The `object-fit` CSS property sets how the content of a replaced element, such as an `<img>` or `<video>`, should be resized to fit its container.",
+    url: "https://www.caniemail.com/features/css-object-fit/",
+    last_test_date: "2021-07-15",
+    coverage: {
+      support: 58.82352941176471,
+      partial: 3.9215686274509802,
+      notSupported: 37.254901960784316,
     },
-    "notes": null,
-    "type": "string"
+    notes: null,
+    type: "string",
   },
   "object-position": {
-    "slug": "css-object-position",
-    "description": "The `object-position` CSS property specifies the alignment of the selected replaced element's contents within the element's box. Areas of the box which aren't covered by the replaced element's object will show the element's background.",
-    "url": "https://www.caniemail.com/features/css-object-position/",
-    "last_test_date": "2021-07-15",
-    "coverage": {
-      "support": 56.86274509803921,
-      "partial": 3.9215686274509802,
-      "notSupported": 39.21568627450981
+    slug: "css-object-position",
+    description:
+      "The `object-position` CSS property specifies the alignment of the selected replaced element's contents within the element's box. Areas of the box which aren't covered by the replaced element's object will show the element's background.",
+    url: "https://www.caniemail.com/features/css-object-position/",
+    last_test_date: "2021-07-15",
+    coverage: {
+      support: 56.86274509803921,
+      partial: 3.9215686274509802,
+      notSupported: 39.21568627450981,
     },
-    "notes": null,
-    "type": "string"
+    notes: null,
+    type: "string",
   },
-  "opacity": {
-    "slug": "css-opacity",
-    "description": "",
-    "url": "https://www.caniemail.com/features/css-opacity/",
-    "last_test_date": "2019-02-28",
-    "coverage": {
-      "support": 62.96296296296296,
-      "partial": 0,
-      "notSupported": 37.03703703703704
+  opacity: {
+    slug: "css-opacity",
+    description: "",
+    url: "https://www.caniemail.com/features/css-opacity/",
+    last_test_date: "2019-02-28",
+    coverage: {
+      support: 62.96296296296296,
+      partial: 0,
+      notSupported: 37.03703703703704,
     },
-    "notes": null,
-    "type": "opacity"
+    notes: null,
+    type: "opacity",
   },
-  "orphans": {
-    "slug": "css-orphans",
-    "description": "Sets the minimum number of lines in a block container split on an old page, region or column.",
-    "url": "https://www.caniemail.com/features/css-orphans/",
-    "last_test_date": "2024-06-13",
-    "coverage": {
-      "support": 39.285714285714285,
-      "partial": 0,
-      "notSupported": 60.71428571428571
+  orphans: {
+    slug: "css-orphans",
+    description:
+      "Sets the minimum number of lines in a block container split on an old page, region or column.",
+    url: "https://www.caniemail.com/features/css-orphans/",
+    last_test_date: "2024-06-13",
+    coverage: {
+      support: 39.285714285714285,
+      partial: 0,
+      notSupported: 60.71428571428571,
     },
-    "notes": null,
-    "type": "string"
+    notes: null,
+    type: "string",
   },
   "outline-offset": {
-    "slug": "css-outline-offset",
-    "description": "Controls the position of an outline.",
-    "url": "https://www.caniemail.com/features/css-outline-offset/",
-    "last_test_date": "2022-12-26",
-    "coverage": {
-      "support": 40.476190476190474,
-      "partial": 0,
-      "notSupported": 59.523809523809526
+    slug: "css-outline-offset",
+    description: "Controls the position of an outline.",
+    url: "https://www.caniemail.com/features/css-outline-offset/",
+    last_test_date: "2022-12-26",
+    coverage: {
+      support: 40.476190476190474,
+      partial: 0,
+      notSupported: 59.523809523809526,
     },
-    "notes": "",
-    "type": "string"
+    notes: "",
+    type: "string",
   },
-  "outline": {
-    "slug": "css-outline",
-    "description": "Sets a line outside of the element's border.",
-    "url": "https://www.caniemail.com/features/css-outline/",
-    "last_test_date": "2022-03-17",
-    "coverage": {
-      "support": 81.63265306122449,
-      "partial": 0,
-      "notSupported": 18.367346938775512
+  outline: {
+    slug: "css-outline",
+    description: "Sets a line outside of the element's border.",
+    url: "https://www.caniemail.com/features/css-outline/",
+    last_test_date: "2022-03-17",
+    coverage: {
+      support: 81.63265306122449,
+      partial: 0,
+      notSupported: 18.367346938775512,
     },
-    "notes": "WebKit renders square outline even when using `border-radius`.",
-    "type": "string"
+    notes: "WebKit renders square outline even when using `border-radius`.",
+    type: "string",
   },
   "overflow-wrap": {
-    "slug": "css-overflow-wrap",
-    "description": "",
-    "url": "https://www.caniemail.com/features/css-overflow-wrap/",
-    "last_test_date": "2022-08-03",
-    "coverage": {
-      "support": 12.5,
-      "partial": 8.333333333333332,
-      "notSupported": 79.16666666666666
+    slug: "css-overflow-wrap",
+    description: "",
+    url: "https://www.caniemail.com/features/css-overflow-wrap/",
+    last_test_date: "2022-08-03",
+    coverage: {
+      support: 12.5,
+      partial: 8.333333333333332,
+      notSupported: 79.16666666666666,
     },
-    "notes": null,
-    "type": "string"
+    notes: null,
+    type: "string",
   },
-  "overflow": {
-    "slug": "css-overflow",
-    "description": "Sets the desired behavior when content does not fit in the element's padding box",
-    "url": "https://www.caniemail.com/features/css-overflow/",
-    "last_test_date": "2025-05-27",
-    "coverage": {
-      "support": 47.5,
-      "partial": 40,
-      "notSupported": 12.5
+  overflow: {
+    slug: "css-overflow",
+    description: "Sets the desired behavior when content does not fit in the element's padding box",
+    url: "https://www.caniemail.com/features/css-overflow/",
+    last_test_date: "2025-05-27",
+    coverage: {
+      support: 47.5,
+      partial: 40,
+      notSupported: 12.5,
     },
-    "notes": null,
-    "type": "string"
+    notes: null,
+    type: "string",
   },
   "padding-block-start": {
-    "slug": "css-padding-block-start-end",
-    "description": "Support for the `padding-block-start` and `padding-block-end` css properties.",
-    "url": "https://www.caniemail.com/features/css-padding-block-start-end/",
-    "last_test_date": "2022-07-13",
-    "coverage": {
-      "support": 44.44444444444444,
-      "partial": 0,
-      "notSupported": 55.55555555555556
+    slug: "css-padding-block-start-end",
+    description: "Support for the `padding-block-start` and `padding-block-end` css properties.",
+    url: "https://www.caniemail.com/features/css-padding-block-start-end/",
+    last_test_date: "2022-07-13",
+    coverage: {
+      support: 44.44444444444444,
+      partial: 0,
+      notSupported: 55.55555555555556,
     },
-    "notes": null,
-    "type": "string"
+    notes: null,
+    type: "string",
   },
   "padding-block-end": {
-    "slug": "css-padding-block-start-end",
-    "description": "Support for the `padding-block-start` and `padding-block-end` css properties.",
-    "url": "https://www.caniemail.com/features/css-padding-block-start-end/",
-    "last_test_date": "2022-07-13",
-    "coverage": {
-      "support": 44.44444444444444,
-      "partial": 0,
-      "notSupported": 55.55555555555556
+    slug: "css-padding-block-start-end",
+    description: "Support for the `padding-block-start` and `padding-block-end` css properties.",
+    url: "https://www.caniemail.com/features/css-padding-block-start-end/",
+    last_test_date: "2022-07-13",
+    coverage: {
+      support: 44.44444444444444,
+      partial: 0,
+      notSupported: 55.55555555555556,
     },
-    "notes": null,
-    "type": "string"
+    notes: null,
+    type: "string",
   },
   "padding-inline": {
-    "slug": "css-padding-inline-block",
-    "description": "Support for the `padding-inline` and `padding-block` shorthand properties.",
-    "url": "https://www.caniemail.com/features/css-padding-inline-block/",
-    "last_test_date": "2022-07-13",
-    "coverage": {
-      "support": 26.666666666666668,
-      "partial": 0,
-      "notSupported": 73.33333333333333
+    slug: "css-padding-inline-block",
+    description: "Support for the `padding-inline` and `padding-block` shorthand properties.",
+    url: "https://www.caniemail.com/features/css-padding-inline-block/",
+    last_test_date: "2022-07-13",
+    coverage: {
+      support: 26.666666666666668,
+      partial: 0,
+      notSupported: 73.33333333333333,
     },
-    "notes": null,
-    "type": "string"
+    notes: null,
+    type: "string",
   },
   "padding-block": {
-    "slug": "css-padding-inline-block",
-    "description": "Support for the `padding-inline` and `padding-block` shorthand properties.",
-    "url": "https://www.caniemail.com/features/css-padding-inline-block/",
-    "last_test_date": "2022-07-13",
-    "coverage": {
-      "support": 26.666666666666668,
-      "partial": 0,
-      "notSupported": 73.33333333333333
+    slug: "css-padding-inline-block",
+    description: "Support for the `padding-inline` and `padding-block` shorthand properties.",
+    url: "https://www.caniemail.com/features/css-padding-inline-block/",
+    last_test_date: "2022-07-13",
+    coverage: {
+      support: 26.666666666666668,
+      partial: 0,
+      notSupported: 73.33333333333333,
     },
-    "notes": null,
-    "type": "string"
+    notes: null,
+    type: "string",
   },
   "padding-inline-start": {
-    "slug": "css-padding-inline-start-end",
-    "description": "Support for the `padding-inline-start` and `padding-inline-end` css properties.",
-    "url": "https://www.caniemail.com/features/css-padding-inline-start-end/",
-    "last_test_date": "2022-07-13",
-    "coverage": {
-      "support": 44.44444444444444,
-      "partial": 0,
-      "notSupported": 55.55555555555556
+    slug: "css-padding-inline-start-end",
+    description: "Support for the `padding-inline-start` and `padding-inline-end` css properties.",
+    url: "https://www.caniemail.com/features/css-padding-inline-start-end/",
+    last_test_date: "2022-07-13",
+    coverage: {
+      support: 44.44444444444444,
+      partial: 0,
+      notSupported: 55.55555555555556,
     },
-    "notes": null,
-    "type": "string"
+    notes: null,
+    type: "string",
   },
   "padding-inline-end": {
-    "slug": "css-padding-inline-start-end",
-    "description": "Support for the `padding-inline-start` and `padding-inline-end` css properties.",
-    "url": "https://www.caniemail.com/features/css-padding-inline-start-end/",
-    "last_test_date": "2022-07-13",
-    "coverage": {
-      "support": 44.44444444444444,
-      "partial": 0,
-      "notSupported": 55.55555555555556
+    slug: "css-padding-inline-start-end",
+    description: "Support for the `padding-inline-start` and `padding-inline-end` css properties.",
+    url: "https://www.caniemail.com/features/css-padding-inline-start-end/",
+    last_test_date: "2022-07-13",
+    coverage: {
+      support: 44.44444444444444,
+      partial: 0,
+      notSupported: 55.55555555555556,
     },
-    "notes": null,
-    "type": "string"
+    notes: null,
+    type: "string",
   },
-  "padding": {
-    "slug": "css-padding",
-    "description": "This test includes support for the `padding` shorthand property as well as for `padding-left`, `padding-right`, `padding-top` and `padding-bottom`.",
-    "url": "https://www.caniemail.com/features/css-padding/",
-    "last_test_date": "2019-07-25",
-    "coverage": {
-      "support": 88.23529411764706,
-      "partial": 11.76470588235294,
-      "notSupported": 0
+  padding: {
+    slug: "css-padding",
+    description:
+      "This test includes support for the `padding` shorthand property as well as for `padding-left`, `padding-right`, `padding-top` and `padding-bottom`.",
+    url: "https://www.caniemail.com/features/css-padding/",
+    last_test_date: "2019-07-25",
+    coverage: {
+      support: 88.23529411764706,
+      partial: 11.76470588235294,
+      notSupported: 0,
     },
-    "notes": null,
-    "type": "spacing"
+    notes: null,
+    type: "spacing",
   },
-  "position": {
-    "slug": "css-position",
-    "description": "Tests for CSS positioning include `relative`, `absolute`, `fixed` and `sticky`.",
-    "url": "https://www.caniemail.com/features/css-position/",
-    "last_test_date": "2021-05-16",
-    "coverage": {
-      "support": 29.166666666666668,
-      "partial": 45.83333333333333,
-      "notSupported": 25
+  position: {
+    slug: "css-position",
+    description: "Tests for CSS positioning include `relative`, `absolute`, `fixed` and `sticky`.",
+    url: "https://www.caniemail.com/features/css-position/",
+    last_test_date: "2021-05-16",
+    coverage: {
+      support: 29.166666666666668,
+      partial: 45.83333333333333,
+      notSupported: 25,
     },
-    "notes": null,
-    "type": "string"
+    notes: null,
+    type: "string",
   },
-  "resize": {
-    "slug": "css-resize",
-    "description": "Sets whether an element is resizable, and in which directions.",
-    "url": "https://www.caniemail.com/features/css-resize/",
-    "last_test_date": "2024-01-17",
-    "coverage": {
-      "support": 6.896551724137931,
-      "partial": 3.4482758620689653,
-      "notSupported": 89.65517241379311
+  resize: {
+    slug: "css-resize",
+    description: "Sets whether an element is resizable, and in which directions.",
+    url: "https://www.caniemail.com/features/css-resize/",
+    last_test_date: "2024-01-17",
+    coverage: {
+      support: 6.896551724137931,
+      partial: 3.4482758620689653,
+      notSupported: 89.65517241379311,
     },
-    "notes": null,
-    "type": "string"
+    notes: null,
+    type: "string",
   },
   "scroll-snap": {
-    "slug": "css-scroll-snap",
-    "description": "Controls panning and scrolling behaviour with snap positions.",
-    "url": "https://www.caniemail.com/features/css-scroll-snap/",
-    "last_test_date": "2023-02-27",
-    "coverage": {
-      "support": 36.84210526315789,
-      "partial": 0,
-      "notSupported": 63.1578947368421
+    slug: "css-scroll-snap",
+    description: "Controls panning and scrolling behaviour with snap positions.",
+    url: "https://www.caniemail.com/features/css-scroll-snap/",
+    last_test_date: "2023-02-27",
+    coverage: {
+      support: 36.84210526315789,
+      partial: 0,
+      notSupported: 63.1578947368421,
     },
-    "notes": null,
-    "type": "string"
+    notes: null,
+    type: "string",
   },
   "shape-margin": {
-    "slug": "css-shape-margin",
-    "description": "Sets a margin for a CSS shape created using `shape-outside`",
-    "url": "https://www.caniemail.com/features/css-shape-margin/",
-    "last_test_date": "2024-03-13",
-    "coverage": {
-      "support": 25,
-      "partial": 0,
-      "notSupported": 75
+    slug: "css-shape-margin",
+    description: "Sets a margin for a CSS shape created using `shape-outside`",
+    url: "https://www.caniemail.com/features/css-shape-margin/",
+    last_test_date: "2024-03-13",
+    coverage: {
+      support: 25,
+      partial: 0,
+      notSupported: 75,
     },
-    "notes": null,
-    "type": "string"
+    notes: null,
+    type: "string",
   },
   "shape-outside": {
-    "slug": "css-shape-outside",
-    "description": "Defines a shape, which may be non-rectangular, around which adjacent inline content should wrap.",
-    "url": "https://www.caniemail.com/features/css-shape-outside/",
-    "last_test_date": "2024-02-28",
-    "coverage": {
-      "support": 25,
-      "partial": 0,
-      "notSupported": 75
+    slug: "css-shape-outside",
+    description:
+      "Defines a shape, which may be non-rectangular, around which adjacent inline content should wrap.",
+    url: "https://www.caniemail.com/features/css-shape-outside/",
+    last_test_date: "2024-02-28",
+    coverage: {
+      support: 25,
+      partial: 0,
+      notSupported: 75,
     },
-    "notes": null,
-    "type": "string"
+    notes: null,
+    type: "string",
   },
   "tab-size": {
-    "slug": "css-tab-size",
-    "description": "",
-    "url": "https://www.caniemail.com/features/css-tab-size/",
-    "last_test_date": "2022-07-21",
-    "coverage": {
-      "support": 52.27272727272727,
-      "partial": 0,
-      "notSupported": 47.72727272727273
+    slug: "css-tab-size",
+    description: "",
+    url: "https://www.caniemail.com/features/css-tab-size/",
+    last_test_date: "2022-07-21",
+    coverage: {
+      support: 52.27272727272727,
+      partial: 0,
+      notSupported: 47.72727272727273,
     },
-    "notes": null,
-    "type": "string"
+    notes: null,
+    type: "string",
   },
   "table-layout": {
-    "slug": "css-table-layout",
-    "description": "The table-layout property defines the algorithm used to lay out table cells, rows, and columns.",
-    "url": "https://www.caniemail.com/features/css-table-layout/",
-    "last_test_date": "2022-07-20",
-    "coverage": {
-      "support": 77.77777777777779,
-      "partial": 0,
-      "notSupported": 22.22222222222222
+    slug: "css-table-layout",
+    description:
+      "The table-layout property defines the algorithm used to lay out table cells, rows, and columns.",
+    url: "https://www.caniemail.com/features/css-table-layout/",
+    last_test_date: "2022-07-20",
+    coverage: {
+      support: 77.77777777777779,
+      partial: 0,
+      notSupported: 22.22222222222222,
     },
-    "notes": null,
-    "type": "string"
+    notes: null,
+    type: "string",
   },
   "text-align-last": {
-    "slug": "css-text-align-last",
-    "description": "The `text-align-last` CSS property sets how the last line of a block or a line right before a forced line break is aligned.",
-    "url": "https://www.caniemail.com/features/css-text-align-last/",
-    "last_test_date": "2022-08-31",
-    "coverage": {
-      "support": 41.17647058823529,
-      "partial": 0,
-      "notSupported": 58.82352941176471
+    slug: "css-text-align-last",
+    description:
+      "The `text-align-last` CSS property sets how the last line of a block or a line right before a forced line break is aligned.",
+    url: "https://www.caniemail.com/features/css-text-align-last/",
+    last_test_date: "2022-08-31",
+    coverage: {
+      support: 41.17647058823529,
+      partial: 0,
+      notSupported: 58.82352941176471,
     },
-    "notes": null,
-    "type": "string"
+    notes: null,
+    type: "string",
   },
   "text-align": {
-    "slug": "css-text-align",
-    "description": "Sets the horizontal alignment of the content.",
-    "url": "https://www.caniemail.com/features/css-text-align/",
-    "last_test_date": "2021-09-24",
-    "coverage": {
-      "support": 66,
-      "partial": 34,
-      "notSupported": 0
+    slug: "css-text-align",
+    description: "Sets the horizontal alignment of the content.",
+    url: "https://www.caniemail.com/features/css-text-align/",
+    last_test_date: "2021-09-24",
+    coverage: {
+      support: 66,
+      partial: 34,
+      notSupported: 0,
     },
-    "notes": null,
-    "type": "string"
+    notes: null,
+    type: "string",
   },
   "text-decoration-color": {
-    "slug": "css-text-decoration-color",
-    "description": null,
-    "url": "https://www.caniemail.com/features/css-text-decoration-color/",
-    "last_test_date": "2020-04-30",
-    "coverage": {
-      "support": 68.62745098039215,
-      "partial": 9.803921568627452,
-      "notSupported": 21.568627450980394
+    slug: "css-text-decoration-color",
+    description: null,
+    url: "https://www.caniemail.com/features/css-text-decoration-color/",
+    last_test_date: "2020-04-30",
+    coverage: {
+      support: 68.62745098039215,
+      partial: 9.803921568627452,
+      notSupported: 21.568627450980394,
     },
-    "notes": "`text-decoration-color` is not supported in Internet Explorer.",
-    "type": "string"
+    notes: "`text-decoration-color` is not supported in Internet Explorer.",
+    type: "string",
   },
   "text-decoration-line": {
-    "slug": "css-text-decoration-line",
-    "description": "Sets the kind of decoration that is used on text in an element, such as an underline or overline.",
-    "url": "https://www.caniemail.com/features/css-text-decoration-line/",
-    "last_test_date": "2023-12-06",
-    "coverage": {
-      "support": 71.42857142857143,
-      "partial": 0,
-      "notSupported": 28.57142857142857
+    slug: "css-text-decoration-line",
+    description:
+      "Sets the kind of decoration that is used on text in an element, such as an underline or overline.",
+    url: "https://www.caniemail.com/features/css-text-decoration-line/",
+    last_test_date: "2023-12-06",
+    coverage: {
+      support: 71.42857142857143,
+      partial: 0,
+      notSupported: 28.57142857142857,
     },
-    "notes": null,
-    "type": "string"
+    notes: null,
+    type: "string",
   },
   "text-decoration-skip-ink": {
-    "slug": "css-text-decoration-skip-ink",
-    "description": "Specifies how overlines and underlines are drawn when they pass over glyph ascenders and descenders.",
-    "url": "https://www.caniemail.com/features/css-text-decoration-skip-ink/",
-    "last_test_date": "2023-12-08",
-    "coverage": {
-      "support": 33.33333333333333,
-      "partial": 0,
-      "notSupported": 66.66666666666666
+    slug: "css-text-decoration-skip-ink",
+    description:
+      "Specifies how overlines and underlines are drawn when they pass over glyph ascenders and descenders.",
+    url: "https://www.caniemail.com/features/css-text-decoration-skip-ink/",
+    last_test_date: "2023-12-08",
+    coverage: {
+      support: 33.33333333333333,
+      partial: 0,
+      notSupported: 66.66666666666666,
     },
-    "notes": null,
-    "type": "string"
+    notes: null,
+    type: "string",
   },
   "text-decoration-style": {
-    "slug": "css-text-decoration-style",
-    "description": "Sets the style of the lines specified by text-decoration-line.",
-    "url": "https://www.caniemail.com/features/css-text-decoration-style/",
-    "last_test_date": "2023-12-06",
-    "coverage": {
-      "support": 71.42857142857143,
-      "partial": 0,
-      "notSupported": 28.57142857142857
+    slug: "css-text-decoration-style",
+    description: "Sets the style of the lines specified by text-decoration-line.",
+    url: "https://www.caniemail.com/features/css-text-decoration-style/",
+    last_test_date: "2023-12-06",
+    coverage: {
+      support: 71.42857142857143,
+      partial: 0,
+      notSupported: 28.57142857142857,
     },
-    "notes": null,
-    "type": "string"
+    notes: null,
+    type: "string",
   },
   "text-decoration-thickness": {
-    "slug": "css-text-decoration-thickness",
-    "description": null,
-    "url": "https://www.caniemail.com/features/css-text-decoration-thickness/",
-    "last_test_date": "2023-01-16",
-    "coverage": {
-      "support": 37.096774193548384,
-      "partial": 1.6129032258064515,
-      "notSupported": 61.29032258064516
+    slug: "css-text-decoration-thickness",
+    description: null,
+    url: "https://www.caniemail.com/features/css-text-decoration-thickness/",
+    last_test_date: "2023-01-16",
+    coverage: {
+      support: 37.096774193548384,
+      partial: 1.6129032258064515,
+      notSupported: 61.29032258064516,
     },
-    "notes": null,
-    "type": "string"
+    notes: null,
+    type: "string",
   },
   "text-decoration": {
-    "slug": "css-text-decoration",
-    "description": "Tested with the values `overline`, `underline` and `line-through`.",
-    "url": "https://www.caniemail.com/features/css-text-decoration/",
-    "last_test_date": "2019-02-28",
-    "coverage": {
-      "support": 68.75,
-      "partial": 25,
-      "notSupported": 6.25
+    slug: "css-text-decoration",
+    description: "Tested with the values `overline`, `underline` and `line-through`.",
+    url: "https://www.caniemail.com/features/css-text-decoration/",
+    last_test_date: "2019-02-28",
+    coverage: {
+      support: 68.75,
+      partial: 25,
+      notSupported: 6.25,
     },
-    "notes": null,
-    "type": "string"
+    notes: null,
+    type: "string",
   },
   "text-emphasis-position": {
-    "slug": "css-text-emphasis-position",
-    "description": "Determines the position of the emphasis mark.",
-    "url": "https://www.caniemail.com/features/css-text-emphasis-position/",
-    "last_test_date": "2022-07-07",
-    "coverage": {
-      "support": 43.90243902439025,
-      "partial": 0,
-      "notSupported": 56.09756097560976
+    slug: "css-text-emphasis-position",
+    description: "Determines the position of the emphasis mark.",
+    url: "https://www.caniemail.com/features/css-text-emphasis-position/",
+    last_test_date: "2022-07-07",
+    coverage: {
+      support: 43.90243902439025,
+      partial: 0,
+      notSupported: 56.09756097560976,
     },
-    "notes": null,
-    "type": "string"
+    notes: null,
+    type: "string",
   },
   "text-emphasis": {
-    "slug": "css-text-emphasis",
-    "description": "Applies emphasis marks to text commonly used in East Asian languages. Tests with text-emphasis, text-emphasis-color & text-emphasis-style properties.",
-    "url": "https://www.caniemail.com/features/css-text-emphasis/",
-    "last_test_date": "2022-07-07",
-    "coverage": {
-      "support": 56.09756097560976,
-      "partial": 0,
-      "notSupported": 43.90243902439025
+    slug: "css-text-emphasis",
+    description:
+      "Applies emphasis marks to text commonly used in East Asian languages. Tests with text-emphasis, text-emphasis-color & text-emphasis-style properties.",
+    url: "https://www.caniemail.com/features/css-text-emphasis/",
+    last_test_date: "2022-07-07",
+    coverage: {
+      support: 56.09756097560976,
+      partial: 0,
+      notSupported: 43.90243902439025,
     },
-    "notes": null,
-    "type": "string"
+    notes: null,
+    type: "string",
   },
   "text-indent": {
-    "slug": "css-text-indent",
-    "description": "Support below refers to supporting a `<length>` value only. This does not include the new `each-line` or `hanging` keywords.",
-    "url": "https://www.caniemail.com/features/css-text-indent/",
-    "last_test_date": "2021-01-31",
-    "coverage": {
-      "support": 79.24528301886792,
-      "partial": 20.754716981132077,
-      "notSupported": 0
+    slug: "css-text-indent",
+    description:
+      "Support below refers to supporting a `<length>` value only. This does not include the new `each-line` or `hanging` keywords.",
+    url: "https://www.caniemail.com/features/css-text-indent/",
+    last_test_date: "2021-01-31",
+    coverage: {
+      support: 79.24528301886792,
+      partial: 20.754716981132077,
+      notSupported: 0,
     },
-    "notes": null,
-    "type": "string"
+    notes: null,
+    type: "string",
   },
   "text-justify": {
-    "slug": "css-text-justify",
-    "description": "Sets what type of justification should be applied to text when `text-align: justify;` is set on an element.",
-    "url": "https://www.caniemail.com/features/css-text-justify/",
-    "last_test_date": "2024-04-17",
-    "coverage": {
-      "support": 0,
-      "partial": 40,
-      "notSupported": 60
+    slug: "css-text-justify",
+    description:
+      "Sets what type of justification should be applied to text when `text-align: justify;` is set on an element.",
+    url: "https://www.caniemail.com/features/css-text-justify/",
+    last_test_date: "2024-04-17",
+    coverage: {
+      support: 0,
+      partial: 40,
+      notSupported: 60,
     },
-    "notes": null,
-    "type": "string"
+    notes: null,
+    type: "string",
   },
   "text-orientation": {
-    "slug": "css-text-orientation",
-    "description": "Sets the orientation of the text characters in vertical mode.",
-    "url": "https://www.caniemail.com/features/css-text-orientation/",
-    "last_test_date": "2023-12-08",
-    "coverage": {
-      "support": 57.99999999999999,
-      "partial": 2,
-      "notSupported": 40
+    slug: "css-text-orientation",
+    description: "Sets the orientation of the text characters in vertical mode.",
+    url: "https://www.caniemail.com/features/css-text-orientation/",
+    last_test_date: "2023-12-08",
+    coverage: {
+      support: 57.99999999999999,
+      partial: 2,
+      notSupported: 40,
     },
-    "notes": null,
-    "type": "string"
+    notes: null,
+    type: "string",
   },
   "text-overflow": {
-    "slug": "css-text-overflow",
-    "description": "Tested with the value `ellipsis`.",
-    "url": "https://www.caniemail.com/features/css-text-overflow/",
-    "last_test_date": "2019-02-28",
-    "coverage": {
-      "support": 60.416666666666664,
-      "partial": 4.166666666666666,
-      "notSupported": 35.41666666666667
+    slug: "css-text-overflow",
+    description: "Tested with the value `ellipsis`.",
+    url: "https://www.caniemail.com/features/css-text-overflow/",
+    last_test_date: "2019-02-28",
+    coverage: {
+      support: 60.416666666666664,
+      partial: 4.166666666666666,
+      notSupported: 35.41666666666667,
     },
-    "notes": null,
-    "type": "string"
+    notes: null,
+    type: "string",
   },
   "text-shadow": {
-    "slug": "css-text-shadow",
-    "description": "",
-    "url": "https://www.caniemail.com/features/css-text-shadow/",
-    "last_test_date": "2019-02-28",
-    "coverage": {
-      "support": 67.3469387755102,
-      "partial": 0,
-      "notSupported": 32.6530612244898
+    slug: "css-text-shadow",
+    description: "",
+    url: "https://www.caniemail.com/features/css-text-shadow/",
+    last_test_date: "2019-02-28",
+    coverage: {
+      support: 67.3469387755102,
+      partial: 0,
+      notSupported: 32.6530612244898,
     },
-    "notes": null,
-    "type": "string"
+    notes: null,
+    type: "string",
   },
   "text-transform": {
-    "slug": "css-text-transform",
-    "description": "Each of the six `text-transform` values defined by MDN (`capitalize`, `uppercase`, `lowercase`, `none`, `full-width`, `full-size-kana`).",
-    "url": "https://www.caniemail.com/features/css-text-transform/",
-    "last_test_date": "2021-09-19",
-    "coverage": {
-      "support": 87.2340425531915,
-      "partial": 12.76595744680851,
-      "notSupported": 0
+    slug: "css-text-transform",
+    description:
+      "Each of the six `text-transform` values defined by MDN (`capitalize`, `uppercase`, `lowercase`, `none`, `full-width`, `full-size-kana`).",
+    url: "https://www.caniemail.com/features/css-text-transform/",
+    last_test_date: "2021-09-19",
+    coverage: {
+      support: 87.2340425531915,
+      partial: 12.76595744680851,
+      notSupported: 0,
     },
-    "notes": "Currently, only Firefox supports the `full-width` and `full-size-kana` property values. Web clients on Firefox will support these properties.",
-    "type": "string"
+    notes:
+      "Currently, only Firefox supports the `full-width` and `full-size-kana` property values. Web clients on Firefox will support these properties.",
+    type: "string",
   },
   "text-underline-offset": {
-    "slug": "css-text-underline-offset",
-    "description": null,
-    "url": "https://www.caniemail.com/features/css-text-underline-offset/",
-    "last_test_date": "2023-01-16",
-    "coverage": {
-      "support": 37.93103448275862,
-      "partial": 0,
-      "notSupported": 62.06896551724138
+    slug: "css-text-underline-offset",
+    description: null,
+    url: "https://www.caniemail.com/features/css-text-underline-offset/",
+    last_test_date: "2023-01-16",
+    coverage: {
+      support: 37.93103448275862,
+      partial: 0,
+      notSupported: 62.06896551724138,
     },
-    "notes": null,
-    "type": "string"
+    notes: null,
+    type: "string",
   },
   "text-underline-position": {
-    "slug": "css-text-underline-position",
-    "description": "Specifies the position of the underline which is set using the `text-decoration property`'s underline value.",
-    "url": "https://www.caniemail.com/features/css-text-underline-position/",
-    "last_test_date": "2023-12-08",
-    "coverage": {
-      "support": 38.70967741935484,
-      "partial": 12.903225806451612,
-      "notSupported": 48.38709677419355
+    slug: "css-text-underline-position",
+    description:
+      "Specifies the position of the underline which is set using the `text-decoration property`'s underline value.",
+    url: "https://www.caniemail.com/features/css-text-underline-position/",
+    last_test_date: "2023-12-08",
+    coverage: {
+      support: 38.70967741935484,
+      partial: 12.903225806451612,
+      notSupported: 48.38709677419355,
     },
-    "notes": null,
-    "type": "string"
+    notes: null,
+    type: "string",
   },
   "text-wrap": {
-    "slug": "css-text-wrap",
-    "description": "Controls how text inside an element is wrapped",
-    "url": "https://www.caniemail.com/features/css-text-wrap/",
-    "last_test_date": "2024-04-03",
-    "coverage": {
-      "support": 18.51851851851852,
-      "partial": 0,
-      "notSupported": 81.48148148148148
+    slug: "css-text-wrap",
+    description: "Controls how text inside an element is wrapped",
+    url: "https://www.caniemail.com/features/css-text-wrap/",
+    last_test_date: "2024-04-03",
+    coverage: {
+      support: 18.51851851851852,
+      partial: 0,
+      notSupported: 81.48148148148148,
     },
-    "notes": null,
-    "type": "string"
+    notes: null,
+    type: "string",
   },
-  "transform": {
-    "slug": "css-transform",
-    "description": "Tested with values `matrix`, `translate`, `scale`, `rotate`, `skew`, `scale translate`.",
-    "url": "https://www.caniemail.com/features/css-transform/",
-    "last_test_date": "2019-02-28",
-    "coverage": {
-      "support": 45.09803921568628,
-      "partial": 0,
-      "notSupported": 54.90196078431373
+  transform: {
+    slug: "css-transform",
+    description:
+      "Tested with values `matrix`, `translate`, `scale`, `rotate`, `skew`, `scale translate`.",
+    url: "https://www.caniemail.com/features/css-transform/",
+    last_test_date: "2019-02-28",
+    coverage: {
+      support: 45.09803921568628,
+      partial: 0,
+      notSupported: 54.90196078431373,
     },
-    "notes": null,
-    "type": "string"
+    notes: null,
+    type: "string",
   },
-  "transition": {
-    "slug": "css-transition",
-    "description": "Creates a visual transition when changing CSS properties.",
-    "url": "https://www.caniemail.com/features/css-transition/",
-    "last_test_date": "2024-03-29",
-    "coverage": {
-      "support": 24.324324324324326,
-      "partial": 21.62162162162162,
-      "notSupported": 54.054054054054056
+  transition: {
+    slug: "css-transition",
+    description: "Creates a visual transition when changing CSS properties.",
+    url: "https://www.caniemail.com/features/css-transition/",
+    last_test_date: "2024-03-29",
+    coverage: {
+      support: 24.324324324324326,
+      partial: 21.62162162162162,
+      notSupported: 54.054054054054056,
     },
-    "notes": "This page accounts for the shorthand `transition` property and the longhand properties `transition-delay`, `transition-duration`, `transition-property` and `transition-timing-function`.",
-    "type": "string"
+    notes:
+      "This page accounts for the shorthand `transition` property and the longhand properties `transition-delay`, `transition-duration`, `transition-property` and `transition-timing-function`.",
+    type: "string",
   },
   "user-select": {
-    "slug": "css-user-select",
-    "description": "Controls whether the user can select text.",
-    "url": "https://www.caniemail.com/features/css-user-select/",
-    "last_test_date": "2024-02-14",
-    "coverage": {
-      "support": 10.714285714285714,
-      "partial": 14.285714285714285,
-      "notSupported": 75
+    slug: "css-user-select",
+    description: "Controls whether the user can select text.",
+    url: "https://www.caniemail.com/features/css-user-select/",
+    last_test_date: "2024-02-14",
+    coverage: {
+      support: 10.714285714285714,
+      partial: 14.285714285714285,
+      notSupported: 75,
     },
-    "notes": null,
-    "type": "string"
+    notes: null,
+    type: "string",
   },
   "vertical-align": {
-    "slug": "css-vertical-align",
-    "description": null,
-    "url": "https://www.caniemail.com/features/css-vertical-align/",
-    "last_test_date": "2020-12-21",
-    "coverage": {
-      "support": 100,
-      "partial": 0,
-      "notSupported": 0
+    slug: "css-vertical-align",
+    description: null,
+    url: "https://www.caniemail.com/features/css-vertical-align/",
+    last_test_date: "2020-12-21",
+    coverage: {
+      support: 100,
+      partial: 0,
+      notSupported: 0,
     },
-    "notes": null,
-    "type": "string"
+    notes: null,
+    type: "string",
   },
-  "visibility": {
-    "slug": "css-visibility",
-    "description": "Tested for values `hidden` and `collapse`.",
-    "url": "https://www.caniemail.com/features/css-visibility/",
-    "last_test_date": "2019-02-28",
-    "coverage": {
-      "support": 67.3076923076923,
-      "partial": 3.8461538461538463,
-      "notSupported": 28.846153846153843
+  visibility: {
+    slug: "css-visibility",
+    description: "Tested for values `hidden` and `collapse`.",
+    url: "https://www.caniemail.com/features/css-visibility/",
+    last_test_date: "2019-02-28",
+    coverage: {
+      support: 67.3076923076923,
+      partial: 3.8461538461538463,
+      notSupported: 28.846153846153843,
     },
-    "notes": null,
-    "type": "string"
+    notes: null,
+    type: "string",
   },
   "white-space-collapse": {
-    "slug": "css-white-space-collapse",
-    "description": "Controls how white space inside an element is collapsed.",
-    "url": "https://www.caniemail.com/features/css-white-space-collapse/",
-    "last_test_date": "2024-09-04",
-    "coverage": {
-      "support": 23.333333333333332,
-      "partial": 0,
-      "notSupported": 76.66666666666667
+    slug: "css-white-space-collapse",
+    description: "Controls how white space inside an element is collapsed.",
+    url: "https://www.caniemail.com/features/css-white-space-collapse/",
+    last_test_date: "2024-09-04",
+    coverage: {
+      support: 23.333333333333332,
+      partial: 0,
+      notSupported: 76.66666666666667,
     },
-    "notes": null,
-    "type": "string"
+    notes: null,
+    type: "string",
   },
   "white-space": {
-    "slug": "css-white-space",
-    "description": "Tested with the values `nowrap` and `pre`.",
-    "url": "https://www.caniemail.com/features/css-white-space/",
-    "last_test_date": "2019-02-28",
-    "coverage": {
-      "support": 68.75,
-      "partial": 16.666666666666664,
-      "notSupported": 14.583333333333334
+    slug: "css-white-space",
+    description: "Tested with the values `nowrap` and `pre`.",
+    url: "https://www.caniemail.com/features/css-white-space/",
+    last_test_date: "2019-02-28",
+    coverage: {
+      support: 68.75,
+      partial: 16.666666666666664,
+      notSupported: 14.583333333333334,
     },
-    "notes": null,
-    "type": "string"
+    notes: null,
+    type: "string",
   },
-  "widows": {
-    "slug": "css-widows",
-    "description": "Sets the minimum number of lines in a block container split on a new page, region or column.",
-    "url": "https://www.caniemail.com/features/css-widows/",
-    "last_test_date": "2024-05-03",
-    "coverage": {
-      "support": 39.285714285714285,
-      "partial": 0,
-      "notSupported": 60.71428571428571
+  widows: {
+    slug: "css-widows",
+    description:
+      "Sets the minimum number of lines in a block container split on a new page, region or column.",
+    url: "https://www.caniemail.com/features/css-widows/",
+    last_test_date: "2024-05-03",
+    coverage: {
+      support: 39.285714285714285,
+      partial: 0,
+      notSupported: 60.71428571428571,
     },
-    "notes": null,
-    "type": "string"
+    notes: null,
+    type: "string",
   },
   "word-break": {
-    "slug": "css-word-break",
-    "description": "Prevents or allows words to be broken over multiple lines.",
-    "url": "https://www.caniemail.com/features/css-word-break/",
-    "last_test_date": "2022-02-15",
-    "coverage": {
-      "support": 32.55813953488372,
-      "partial": 34.883720930232556,
-      "notSupported": 32.55813953488372
+    slug: "css-word-break",
+    description: "Prevents or allows words to be broken over multiple lines.",
+    url: "https://www.caniemail.com/features/css-word-break/",
+    last_test_date: "2022-02-15",
+    coverage: {
+      support: 32.55813953488372,
+      partial: 34.883720930232556,
+      notSupported: 32.55813953488372,
     },
-    "notes": null,
-    "type": "string"
+    notes: null,
+    type: "string",
   },
   "word-spacing": {
-    "slug": "css-word-spacing",
-    "description": "Sets the length of space between words and between tags.",
-    "url": "https://www.caniemail.com/features/css-word-spacing/",
-    "last_test_date": "2024-03-13",
-    "coverage": {
-      "support": 53.333333333333336,
-      "partial": 23.333333333333332,
-      "notSupported": 23.333333333333332
+    slug: "css-word-spacing",
+    description: "Sets the length of space between words and between tags.",
+    url: "https://www.caniemail.com/features/css-word-spacing/",
+    last_test_date: "2024-03-13",
+    coverage: {
+      support: 53.333333333333336,
+      partial: 23.333333333333332,
+      notSupported: 23.333333333333332,
     },
-    "notes": null,
-    "type": "string"
+    notes: null,
+    type: "string",
   },
   "word-wrap": {
-    "slug": "css-word-wrap",
-    "description": "The word-wrap CSS property (now standardized as overflow-wrap) controls whether the browser should break words to prevent them from overflowing their container. When set to break-word, it forces otherwise unbreakable strings to wrap onto the next line to avoid layout issues.",
-    "url": "https://www.caniemail.com/features/css-word-wrap/",
-    "last_test_date": "2025-05-08",
-    "coverage": {
-      "support": 41.66666666666667,
-      "partial": 16.666666666666664,
-      "notSupported": 41.66666666666667
+    slug: "css-word-wrap",
+    description:
+      "The word-wrap CSS property (now standardized as overflow-wrap) controls whether the browser should break words to prevent them from overflowing their container. When set to break-word, it forces otherwise unbreakable strings to wrap onto the next line to avoid layout issues.",
+    url: "https://www.caniemail.com/features/css-word-wrap/",
+    last_test_date: "2025-05-08",
+    coverage: {
+      support: 41.66666666666667,
+      partial: 16.666666666666664,
+      notSupported: 41.66666666666667,
     },
-    "notes": null,
-    "type": "string"
+    notes: null,
+    type: "string",
   },
   "writing-mode": {
-    "slug": "css-writing-mode",
-    "description": "Sets whether lines of text are laid out horizontally or vertically.",
-    "url": "https://www.caniemail.com/features/css-writing-mode/",
-    "last_test_date": "2022-05-04",
-    "coverage": {
-      "support": 57.99999999999999,
-      "partial": 4,
-      "notSupported": 38
+    slug: "css-writing-mode",
+    description: "Sets whether lines of text are laid out horizontally or vertically.",
+    url: "https://www.caniemail.com/features/css-writing-mode/",
+    last_test_date: "2022-05-04",
+    coverage: {
+      support: 57.99999999999999,
+      partial: 4,
+      notSupported: 38,
     },
-    "notes": null,
-    "type": "string"
+    notes: null,
+    type: "string",
   },
   "z-index": {
-    "slug": "css-z-index",
-    "description": "",
-    "url": "https://www.caniemail.com/features/css-z-index/",
-    "last_test_date": "2021-05-16",
-    "coverage": {
-      "support": 77.08333333333334,
-      "partial": 0,
-      "notSupported": 22.916666666666664
+    slug: "css-z-index",
+    description: "",
+    url: "https://www.caniemail.com/features/css-z-index/",
+    last_test_date: "2021-05-16",
+    coverage: {
+      support: 77.08333333333334,
+      partial: 0,
+      notSupported: 22.916666666666664,
     },
-    "notes": null,
-    "type": "zIndex"
+    notes: null,
+    type: "zIndex",
   },
   "background-position-x": {
-    "slug": "",
-    "description": null,
-    "url": "",
-    "last_test_date": "",
-    "coverage": {
-      "support": 100,
-      "partial": 0,
-      "notSupported": 0
+    slug: "",
+    description: null,
+    url: "",
+    last_test_date: "",
+    coverage: {
+      support: 100,
+      partial: 0,
+      notSupported: 0,
     },
-    "notes": null,
-    "type": "string"
+    notes: null,
+    type: "string",
   },
   "background-position-y": {
-    "slug": "",
-    "description": null,
-    "url": "",
-    "last_test_date": "",
-    "coverage": {
-      "support": 100,
-      "partial": 0,
-      "notSupported": 0
+    slug: "",
+    description: null,
+    url: "",
+    last_test_date: "",
+    coverage: {
+      support: 100,
+      partial: 0,
+      notSupported: 0,
     },
-    "notes": null,
-    "type": "string"
+    notes: null,
+    type: "string",
   },
   "background-repeat-x": {
-    "slug": "",
-    "description": null,
-    "url": "",
-    "last_test_date": "",
-    "coverage": {
-      "support": 100,
-      "partial": 0,
-      "notSupported": 0
+    slug: "",
+    description: null,
+    url: "",
+    last_test_date: "",
+    coverage: {
+      support: 100,
+      partial: 0,
+      notSupported: 0,
     },
-    "notes": null,
-    "type": "string"
+    notes: null,
+    type: "string",
   },
   "background-repeat-y": {
-    "slug": "",
-    "description": null,
-    "url": "",
-    "last_test_date": "",
-    "coverage": {
-      "support": 100,
-      "partial": 0,
-      "notSupported": 0
+    slug: "",
+    description: null,
+    url: "",
+    last_test_date: "",
+    coverage: {
+      support: 100,
+      partial: 0,
+      notSupported: 0,
     },
-    "notes": null,
-    "type": "string"
+    notes: null,
+    type: "string",
   },
   "background-attachment": {
-    "slug": "",
-    "description": null,
-    "url": "",
-    "last_test_date": "",
-    "coverage": {
-      "support": 100,
-      "partial": 0,
-      "notSupported": 0
+    slug: "",
+    description: null,
+    url: "",
+    last_test_date: "",
+    coverage: {
+      support: 100,
+      partial: 0,
+      notSupported: 0,
     },
-    "notes": null,
-    "type": "string"
+    notes: null,
+    type: "string",
   },
   "background-composite": {
-    "slug": "",
-    "description": null,
-    "url": "",
-    "last_test_date": "",
-    "coverage": {
-      "support": 100,
-      "partial": 0,
-      "notSupported": 0
+    slug: "",
+    description: null,
+    url: "",
+    last_test_date: "",
+    coverage: {
+      support: 100,
+      partial: 0,
+      notSupported: 0,
     },
-    "notes": null,
-    "type": "string"
+    notes: null,
+    type: "string",
   },
   "border-width": {
-    "slug": "",
-    "description": null,
-    "url": "",
-    "last_test_date": "",
-    "coverage": {
-      "support": 100,
-      "partial": 0,
-      "notSupported": 0
+    slug: "",
+    description: null,
+    url: "",
+    last_test_date: "",
+    coverage: {
+      support: 100,
+      partial: 0,
+      notSupported: 0,
     },
-    "notes": null,
-    "type": "borderWidths"
+    notes: null,
+    type: "borderWidths",
   },
   "border-style": {
-    "slug": "",
-    "description": null,
-    "url": "",
-    "last_test_date": "",
-    "coverage": {
-      "support": 100,
-      "partial": 0,
-      "notSupported": 0
+    slug: "",
+    description: null,
+    url: "",
+    last_test_date: "",
+    coverage: {
+      support: 100,
+      partial: 0,
+      notSupported: 0,
     },
-    "notes": null,
-    "type": "string"
+    notes: null,
+    type: "string",
   },
   "border-color": {
-    "slug": "",
-    "description": null,
-    "url": "",
-    "last_test_date": "",
-    "coverage": {
-      "support": 100,
-      "partial": 0,
-      "notSupported": 0
+    slug: "",
+    description: null,
+    url: "",
+    last_test_date: "",
+    coverage: {
+      support: 100,
+      partial: 0,
+      notSupported: 0,
     },
-    "notes": null,
-    "type": "colors"
+    notes: null,
+    type: "colors",
   },
   "border-top-radius": {
-    "slug": "",
-    "description": null,
-    "url": "",
-    "last_test_date": "",
-    "coverage": {
-      "support": 100,
-      "partial": 0,
-      "notSupported": 0
+    slug: "",
+    description: null,
+    url: "",
+    last_test_date: "",
+    coverage: {
+      support: 100,
+      partial: 0,
+      notSupported: 0,
     },
-    "notes": null,
-    "type": "radii"
+    notes: null,
+    type: "radii",
   },
   "border-right-radius": {
-    "slug": "",
-    "description": null,
-    "url": "",
-    "last_test_date": "",
-    "coverage": {
-      "support": 100,
-      "partial": 0,
-      "notSupported": 0
+    slug: "",
+    description: null,
+    url: "",
+    last_test_date: "",
+    coverage: {
+      support: 100,
+      partial: 0,
+      notSupported: 0,
     },
-    "notes": null,
-    "type": "radii"
+    notes: null,
+    type: "radii",
   },
   "border-bottom-radius": {
-    "slug": "",
-    "description": null,
-    "url": "",
-    "last_test_date": "",
-    "coverage": {
-      "support": 100,
-      "partial": 0,
-      "notSupported": 0
+    slug: "",
+    description: null,
+    url: "",
+    last_test_date: "",
+    coverage: {
+      support: 100,
+      partial: 0,
+      notSupported: 0,
     },
-    "notes": null,
-    "type": "radii"
+    notes: null,
+    type: "radii",
   },
   "border-left-radius": {
-    "slug": "",
-    "description": null,
-    "url": "",
-    "last_test_date": "",
-    "coverage": {
-      "support": 100,
-      "partial": 0,
-      "notSupported": 0
+    slug: "",
+    description: null,
+    url: "",
+    last_test_date: "",
+    coverage: {
+      support: 100,
+      partial: 0,
+      notSupported: 0,
     },
-    "notes": null,
-    "type": "radii"
+    notes: null,
+    type: "radii",
   },
-  "top": {
-    "slug": "",
-    "description": null,
-    "url": "",
-    "last_test_date": "",
-    "coverage": {
-      "support": 100,
-      "partial": 0,
-      "notSupported": 0
+  top: {
+    slug: "",
+    description: null,
+    url: "",
+    last_test_date: "",
+    coverage: {
+      support: 100,
+      partial: 0,
+      notSupported: 0,
     },
-    "notes": null,
-    "type": "spacing"
+    notes: null,
+    type: "spacing",
   },
-  "bottom": {
-    "slug": "",
-    "description": null,
-    "url": "",
-    "last_test_date": "",
-    "coverage": {
-      "support": 100,
-      "partial": 0,
-      "notSupported": 0
+  bottom: {
+    slug: "",
+    description: null,
+    url: "",
+    last_test_date: "",
+    coverage: {
+      support: 100,
+      partial: 0,
+      notSupported: 0,
     },
-    "notes": null,
-    "type": "spacing"
+    notes: null,
+    type: "spacing",
   },
-  "left": {
-    "slug": "",
-    "description": null,
-    "url": "",
-    "last_test_date": "",
-    "coverage": {
-      "support": 100,
-      "partial": 0,
-      "notSupported": 0
+  left: {
+    slug: "",
+    description: null,
+    url: "",
+    last_test_date: "",
+    coverage: {
+      support: 100,
+      partial: 0,
+      notSupported: 0,
     },
-    "notes": null,
-    "type": "spacing"
+    notes: null,
+    type: "spacing",
   },
-  "right": {
-    "slug": "",
-    "description": null,
-    "url": "",
-    "last_test_date": "",
-    "coverage": {
-      "support": 100,
-      "partial": 0,
-      "notSupported": 0
+  right: {
+    slug: "",
+    description: null,
+    url: "",
+    last_test_date: "",
+    coverage: {
+      support: 100,
+      partial: 0,
+      notSupported: 0,
     },
-    "notes": null,
-    "type": "spacing"
+    notes: null,
+    type: "spacing",
   },
-  "flex": {
-    "slug": "",
-    "description": null,
-    "url": "",
-    "last_test_date": "",
-    "coverage": {
-      "support": 100,
-      "partial": 0,
-      "notSupported": 0
+  flex: {
+    slug: "",
+    description: null,
+    url: "",
+    last_test_date: "",
+    coverage: {
+      support: 100,
+      partial: 0,
+      notSupported: 0,
     },
-    "notes": null,
-    "type": "string"
+    notes: null,
+    type: "string",
   },
   "flex-direction": {
-    "slug": "",
-    "description": null,
-    "url": "",
-    "last_test_date": "",
-    "coverage": {
-      "support": 100,
-      "partial": 0,
-      "notSupported": 0
+    slug: "",
+    description: null,
+    url: "",
+    last_test_date: "",
+    coverage: {
+      support: 100,
+      partial: 0,
+      notSupported: 0,
     },
-    "notes": null,
-    "type": "string"
+    notes: null,
+    type: "string",
   },
-  "gap": {
-    "slug": "",
-    "description": null,
-    "url": "",
-    "last_test_date": "",
-    "coverage": {
-      "support": 100,
-      "partial": 0,
-      "notSupported": 0
+  gap: {
+    slug: "",
+    description: null,
+    url: "",
+    last_test_date: "",
+    coverage: {
+      support: 100,
+      partial: 0,
+      notSupported: 0,
     },
-    "notes": null,
-    "type": "spacing"
+    notes: null,
+    type: "spacing",
   },
   "column-gap": {
-    "slug": "",
-    "description": null,
-    "url": "",
-    "last_test_date": "",
-    "coverage": {
-      "support": 100,
-      "partial": 0,
-      "notSupported": 0
+    slug: "",
+    description: null,
+    url: "",
+    last_test_date: "",
+    coverage: {
+      support: 100,
+      partial: 0,
+      notSupported: 0,
     },
-    "notes": null,
-    "type": "spacing"
+    notes: null,
+    type: "spacing",
   },
   "row-gap": {
-    "slug": "",
-    "description": null,
-    "url": "",
-    "last_test_date": "",
-    "coverage": {
-      "support": 100,
-      "partial": 0,
-      "notSupported": 0
+    slug: "",
+    description: null,
+    url: "",
+    last_test_date: "",
+    coverage: {
+      support: 100,
+      partial: 0,
+      notSupported: 0,
     },
-    "notes": null,
-    "type": "spacing"
+    notes: null,
+    type: "spacing",
   },
   "pointer-events": {
-    "slug": "",
-    "description": null,
-    "url": "",
-    "last_test_date": "",
-    "coverage": {
-      "support": 100,
-      "partial": 0,
-      "notSupported": 0
+    slug: "",
+    description: null,
+    url: "",
+    last_test_date: "",
+    coverage: {
+      support: 100,
+      partial: 0,
+      notSupported: 0,
     },
-    "notes": null,
-    "type": "string"
+    notes: null,
+    type: "string",
   },
-  "width": {
-    "slug": "",
-    "description": null,
-    "url": "",
-    "last_test_date": "",
-    "coverage": {
-      "support": 100,
-      "partial": 0,
-      "notSupported": 0
+  width: {
+    slug: "",
+    description: null,
+    url: "",
+    last_test_date: "",
+    coverage: {
+      support: 100,
+      partial: 0,
+      notSupported: 0,
     },
-    "notes": null,
-    "type": "sizes"
+    notes: null,
+    type: "sizes",
   },
-  "height": {
-    "slug": "",
-    "description": null,
-    "url": "",
-    "last_test_date": "",
-    "coverage": {
-      "support": 100,
-      "partial": 0,
-      "notSupported": 0
+  height: {
+    slug: "",
+    description: null,
+    url: "",
+    last_test_date: "",
+    coverage: {
+      support: 100,
+      partial: 0,
+      notSupported: 0,
     },
-    "notes": null,
-    "type": "sizes"
+    notes: null,
+    type: "sizes",
   },
   "min-width": {
-    "slug": "",
-    "description": null,
-    "url": "",
-    "last_test_date": "",
-    "coverage": {
-      "support": 100,
-      "partial": 0,
-      "notSupported": 0
+    slug: "",
+    description: null,
+    url: "",
+    last_test_date: "",
+    coverage: {
+      support: 100,
+      partial: 0,
+      notSupported: 0,
     },
-    "notes": null,
-    "type": "sizes"
+    notes: null,
+    type: "sizes",
   },
   "min-height": {
-    "slug": "",
-    "description": null,
-    "url": "",
-    "last_test_date": "",
-    "coverage": {
-      "support": 100,
-      "partial": 0,
-      "notSupported": 0
+    slug: "",
+    description: null,
+    url: "",
+    last_test_date: "",
+    coverage: {
+      support: 100,
+      partial: 0,
+      notSupported: 0,
     },
-    "notes": null,
-    "type": "sizes"
+    notes: null,
+    type: "sizes",
   },
   "max-height": {
-    "slug": "",
-    "description": null,
-    "url": "",
-    "last_test_date": "",
-    "coverage": {
-      "support": 100,
-      "partial": 0,
-      "notSupported": 0
+    slug: "",
+    description: null,
+    url: "",
+    last_test_date: "",
+    coverage: {
+      support: 100,
+      partial: 0,
+      notSupported: 0,
     },
-    "notes": null,
-    "type": "sizes"
+    notes: null,
+    type: "sizes",
   },
   "margin-top": {
-    "slug": "",
-    "description": null,
-    "url": "",
-    "last_test_date": "",
-    "coverage": {
-      "support": 100,
-      "partial": 0,
-      "notSupported": 0
+    slug: "",
+    description: null,
+    url: "",
+    last_test_date: "",
+    coverage: {
+      support: 100,
+      partial: 0,
+      notSupported: 0,
     },
-    "notes": null,
-    "type": "spacing"
+    notes: null,
+    type: "spacing",
   },
   "margin-right": {
-    "slug": "",
-    "description": null,
-    "url": "",
-    "last_test_date": "",
-    "coverage": {
-      "support": 100,
-      "partial": 0,
-      "notSupported": 0
+    slug: "",
+    description: null,
+    url: "",
+    last_test_date: "",
+    coverage: {
+      support: 100,
+      partial: 0,
+      notSupported: 0,
     },
-    "notes": null,
-    "type": "spacing"
+    notes: null,
+    type: "spacing",
   },
   "margin-bottom": {
-    "slug": "",
-    "description": null,
-    "url": "",
-    "last_test_date": "",
-    "coverage": {
-      "support": 100,
-      "partial": 0,
-      "notSupported": 0
+    slug: "",
+    description: null,
+    url: "",
+    last_test_date: "",
+    coverage: {
+      support: 100,
+      partial: 0,
+      notSupported: 0,
     },
-    "notes": null,
-    "type": "spacing"
+    notes: null,
+    type: "spacing",
   },
   "margin-left": {
-    "slug": "",
-    "description": null,
-    "url": "",
-    "last_test_date": "",
-    "coverage": {
-      "support": 100,
-      "partial": 0,
-      "notSupported": 0
+    slug: "",
+    description: null,
+    url: "",
+    last_test_date: "",
+    coverage: {
+      support: 100,
+      partial: 0,
+      notSupported: 0,
     },
-    "notes": null,
-    "type": "spacing"
+    notes: null,
+    type: "spacing",
   },
   "margin-x": {
-    "slug": "",
-    "description": null,
-    "url": "",
-    "last_test_date": "",
-    "coverage": {
-      "support": 100,
-      "partial": 0,
-      "notSupported": 0
+    slug: "",
+    description: null,
+    url: "",
+    last_test_date: "",
+    coverage: {
+      support: 100,
+      partial: 0,
+      notSupported: 0,
     },
-    "notes": null,
-    "type": "spacing"
+    notes: null,
+    type: "spacing",
   },
   "margin-y": {
-    "slug": "",
-    "description": null,
-    "url": "",
-    "last_test_date": "",
-    "coverage": {
-      "support": 100,
-      "partial": 0,
-      "notSupported": 0
+    slug: "",
+    description: null,
+    url: "",
+    last_test_date: "",
+    coverage: {
+      support: 100,
+      partial: 0,
+      notSupported: 0,
     },
-    "notes": null,
-    "type": "spacing"
+    notes: null,
+    type: "spacing",
   },
   "padding-top": {
-    "slug": "",
-    "description": null,
-    "url": "",
-    "last_test_date": "",
-    "coverage": {
-      "support": 100,
-      "partial": 0,
-      "notSupported": 0
+    slug: "",
+    description: null,
+    url: "",
+    last_test_date: "",
+    coverage: {
+      support: 100,
+      partial: 0,
+      notSupported: 0,
     },
-    "notes": null,
-    "type": "spacing"
+    notes: null,
+    type: "spacing",
   },
   "padding-right": {
-    "slug": "",
-    "description": null,
-    "url": "",
-    "last_test_date": "",
-    "coverage": {
-      "support": 100,
-      "partial": 0,
-      "notSupported": 0
+    slug: "",
+    description: null,
+    url: "",
+    last_test_date: "",
+    coverage: {
+      support: 100,
+      partial: 0,
+      notSupported: 0,
     },
-    "notes": null,
-    "type": "spacing"
+    notes: null,
+    type: "spacing",
   },
   "padding-bottom": {
-    "slug": "",
-    "description": null,
-    "url": "",
-    "last_test_date": "",
-    "coverage": {
-      "support": 100,
-      "partial": 0,
-      "notSupported": 0
+    slug: "",
+    description: null,
+    url: "",
+    last_test_date: "",
+    coverage: {
+      support: 100,
+      partial: 0,
+      notSupported: 0,
     },
-    "notes": null,
-    "type": "spacing"
+    notes: null,
+    type: "spacing",
   },
   "padding-left": {
-    "slug": "",
-    "description": null,
-    "url": "",
-    "last_test_date": "",
-    "coverage": {
-      "support": 100,
-      "partial": 0,
-      "notSupported": 0
+    slug: "",
+    description: null,
+    url: "",
+    last_test_date: "",
+    coverage: {
+      support: 100,
+      partial: 0,
+      notSupported: 0,
     },
-    "notes": null,
-    "type": "spacing"
+    notes: null,
+    type: "spacing",
   },
   "padding-x": {
-    "slug": "",
-    "description": null,
-    "url": "",
-    "last_test_date": "",
-    "coverage": {
-      "support": 100,
-      "partial": 0,
-      "notSupported": 0
+    slug: "",
+    description: null,
+    url: "",
+    last_test_date: "",
+    coverage: {
+      support: 100,
+      partial: 0,
+      notSupported: 0,
     },
-    "notes": null,
-    "type": "spacing"
+    notes: null,
+    type: "spacing",
   },
   "padding-y": {
-    "slug": "",
-    "description": null,
-    "url": "",
-    "last_test_date": "",
-    "coverage": {
-      "support": 100,
-      "partial": 0,
-      "notSupported": 0
+    slug: "",
+    description: null,
+    url: "",
+    last_test_date: "",
+    coverage: {
+      support: 100,
+      partial: 0,
+      notSupported: 0,
     },
-    "notes": null,
-    "type": "spacing"
+    notes: null,
+    type: "spacing",
   },
-  "color": {
-    "slug": "",
-    "description": null,
-    "url": "",
-    "last_test_date": "",
-    "coverage": {
-      "support": 100,
-      "partial": 0,
-      "notSupported": 0
+  color: {
+    slug: "",
+    description: null,
+    url: "",
+    last_test_date: "",
+    coverage: {
+      support: 100,
+      partial: 0,
+      notSupported: 0,
     },
-    "notes": null,
-    "type": "colors"
+    notes: null,
+    type: "colors",
   },
   "font-family": {
-    "slug": "",
-    "description": null,
-    "url": "",
-    "last_test_date": "",
-    "coverage": {
-      "support": 100,
-      "partial": 0,
-      "notSupported": 0
+    slug: "",
+    description: null,
+    url: "",
+    last_test_date: "",
+    coverage: {
+      support: 100,
+      partial: 0,
+      notSupported: 0,
     },
-    "notes": null,
-    "type": "fonts"
-  }
+    notes: null,
+    type: "fonts",
+  },
 } as const;

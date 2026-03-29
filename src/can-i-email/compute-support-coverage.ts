@@ -24,15 +24,15 @@ export function computeSupportCoverage(stats: Record<string, any>) {
         if (!rawStatus) continue;
 
         // Strip off any notes (e.g., "y #1" -> "y")
-        const status = rawStatus.split(' ')[0].toLowerCase();
+        const status = rawStatus.split(" ")[0].toLowerCase();
 
-        if (status === 'y') {
+        if (status === "y") {
           supportedCount++;
           totalCount++;
-        } else if (status === 'a') {
+        } else if (status === "a") {
           partialCount++;
           totalCount++;
-        } else if (status === 'n') {
+        } else if (status === "n") {
           notSupportedCount++;
           totalCount++;
         }

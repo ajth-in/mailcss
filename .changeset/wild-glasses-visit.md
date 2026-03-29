@@ -1,5 +1,5 @@
 ---
-"emailcss": patch
+"emailcss": minor
 ---
 
 initial release
