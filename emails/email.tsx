@@ -33,7 +33,7 @@ export default function AWSVerifyEmail({ verificationCode }: AWSVerifyEmailProps
             <Section
               style={css({
                 backgroundColor: "brand.navy",
-                display: "flex",
+                display: "grid",
                 marginTop: "calc(100dvw - min(max(100px, 90rem)), 10px)",
                 paddingY: "section",
                 alignItems: "center",

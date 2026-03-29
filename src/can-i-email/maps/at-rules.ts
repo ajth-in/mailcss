@@ -41,6 +41,71 @@ export const canIEmailCSSAtRules = {
     "notes": null,
     "type": "string"
   },
+  "@media (-webkit-device-pixel-ratio)": {
+    "slug": "css-at-media-device-pixel-ratio",
+    "description": "",
+    "url": "https://www.caniemail.com/features/css-at-media-device-pixel-ratio/",
+    "last_test_date": "2019-08-20",
+    "coverage": {
+      "support": 48.148148148148145,
+      "partial": 0,
+      "notSupported": 51.85185185185185
+    },
+    "notes": null,
+    "type": "string"
+  },
+  "@media (hover), @media (any-hover)": {
+    "slug": "css-at-media-hover",
+    "description": "This media query tests whether the user's input device[s] (i.e mouse, trackpad etc.) can hover over elements",
+    "url": "https://www.caniemail.com/features/css-at-media-hover/",
+    "last_test_date": "2022-08-29",
+    "coverage": {
+      "support": 45.16129032258064,
+      "partial": 0,
+      "notSupported": 54.83870967741935
+    },
+    "notes": null,
+    "type": "string"
+  },
+  "@media (orientation)": {
+    "slug": "css-at-media-orientation",
+    "description": "",
+    "url": "https://www.caniemail.com/features/css-at-media-orientation/",
+    "last_test_date": "2019-08-20",
+    "coverage": {
+      "support": 55.73770491803278,
+      "partial": 1.639344262295082,
+      "notSupported": 42.62295081967213
+    },
+    "notes": null,
+    "type": "string"
+  },
+  "@media (prefers-color-scheme)": {
+    "slug": "css-at-media-prefers-color-scheme",
+    "description": "This media query allows to theme for system light and dark mode.",
+    "url": "https://www.caniemail.com/features/css-at-media-prefers-color-scheme/",
+    "last_test_date": "2023-03-08",
+    "coverage": {
+      "support": 39.53488372093023,
+      "partial": 0,
+      "notSupported": 60.46511627906976
+    },
+    "notes": null,
+    "type": "string"
+  },
+  "@media (prefers-reduced-motion)": {
+    "slug": "css-at-media-prefers-reduced-motion",
+    "description": "",
+    "url": "https://www.caniemail.com/features/css-at-media-prefers-reduced-motion/",
+    "last_test_date": "2021-02-20",
+    "coverage": {
+      "support": 49.056603773584904,
+      "partial": 5.660377358490567,
+      "notSupported": 45.28301886792453
+    },
+    "notes": null,
+    "type": "string"
+  },
   "@media": {
     "slug": "css-at-media",
     "description": "",

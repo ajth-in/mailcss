@@ -3,178 +3,172 @@
 
 export const canIEmailCSSFunctions = {
   "conic-gradient()": {
-    slug: "css-conic-gradient",
-    description:
-      "Creates an image consisting of a gradient with color transitions rotated around a center point (rather than radiating from the center).",
-    url: "https://www.caniemail.com/features/css-conic-gradient/",
-    last_test_date: "2023-01-02",
-    coverage: {
-      support: 36.58536585365854,
-      partial: 2.4390243902439024,
-      notSupported: 60.97560975609756,
+    "slug": "css-conic-gradient",
+    "description": "Creates an image consisting of a gradient with color transitions rotated around a center point (rather than radiating from the center).",
+    "url": "https://www.caniemail.com/features/css-conic-gradient/",
+    "last_test_date": "2023-01-02",
+    "coverage": {
+      "support": 36.58536585365854,
+      "partial": 2.4390243902439024,
+      "notSupported": 60.97560975609756
     },
-    notes: null,
-    type: "string",
+    "notes": null,
+    "type": "string"
   },
   "clamp()": {
-    slug: "css-function-clamp",
-    description: "Support for the CSS `clamp()` function.",
-    url: "https://www.caniemail.com/features/css-function-clamp/",
-    last_test_date: "2021-05-07",
-    coverage: {
-      support: 38.46153846153847,
-      partial: 5.769230769230769,
-      notSupported: 55.769230769230774,
+    "slug": "css-function-clamp",
+    "description": "Support for the CSS `clamp()` function.",
+    "url": "https://www.caniemail.com/features/css-function-clamp/",
+    "last_test_date": "2021-05-07",
+    "coverage": {
+      "support": 38.46153846153847,
+      "partial": 5.769230769230769,
+      "notSupported": 55.769230769230774
     },
-    notes: null,
-    type: "string",
+    "notes": null,
+    "type": "string"
   },
   "light-dark()": {
-    slug: "css-function-light-dark",
-    description:
-      "Enables setting two colors (one for light and the other for dark mode) for a property.",
-    url: "https://www.caniemail.com/features/css-function-light-dark/",
-    last_test_date: "2024-08-14",
-    coverage: {
-      support: 11.76470588235294,
-      partial: 23.52941176470588,
-      notSupported: 64.70588235294117,
+    "slug": "css-function-light-dark",
+    "description": "Enables setting two colors (one for light and the other for dark mode) for a property.",
+    "url": "https://www.caniemail.com/features/css-function-light-dark/",
+    "last_test_date": "2024-08-14",
+    "coverage": {
+      "support": 11.76470588235294,
+      "partial": 23.52941176470588,
+      "notSupported": 64.70588235294117
     },
-    notes: null,
-    type: "string",
+    "notes": null,
+    "type": "string"
   },
   "max()": {
-    slug: "css-function-max",
-    description: "Support for the CSS `max()` function.",
-    url: "https://www.caniemail.com/features/css-function-max/",
-    last_test_date: "2021-05-07",
-    coverage: {
-      support: 44.230769230769226,
-      partial: 5.769230769230769,
-      notSupported: 50,
+    "slug": "css-function-max",
+    "description": "Support for the CSS `max()` function.",
+    "url": "https://www.caniemail.com/features/css-function-max/",
+    "last_test_date": "2021-05-07",
+    "coverage": {
+      "support": 44.230769230769226,
+      "partial": 5.769230769230769,
+      "notSupported": 50
     },
-    notes: null,
-    type: "string",
+    "notes": null,
+    "type": "string"
   },
   "min()": {
-    slug: "css-function-min",
-    description: "Support for the CSS `min()` function.",
-    url: "https://www.caniemail.com/features/css-function-min/",
-    last_test_date: "2021-05-07",
-    coverage: {
-      support: 44.230769230769226,
-      partial: 5.769230769230769,
-      notSupported: 50,
+    "slug": "css-function-min",
+    "description": "Support for the CSS `min()` function.",
+    "url": "https://www.caniemail.com/features/css-function-min/",
+    "last_test_date": "2021-05-07",
+    "coverage": {
+      "support": 44.230769230769226,
+      "partial": 5.769230769230769,
+      "notSupported": 50
     },
-    notes: null,
-    type: "string",
+    "notes": null,
+    "type": "string"
   },
   "linear-gradient()": {
-    slug: "css-linear-gradient",
-    description:
-      "Creates an image consisting of a progressive transition between two or more colors along a straight line.",
-    url: "https://www.caniemail.com/features/css-linear-gradient/",
-    last_test_date: "2021-12-29",
-    coverage: {
-      support: 53.84615384615385,
-      partial: 3.8461538461538463,
-      notSupported: 42.30769230769231,
+    "slug": "css-linear-gradient",
+    "description": "Creates an image consisting of a progressive transition between two or more colors along a straight line.",
+    "url": "https://www.caniemail.com/features/css-linear-gradient/",
+    "last_test_date": "2021-12-29",
+    "coverage": {
+      "support": 53.84615384615385,
+      "partial": 3.8461538461538463,
+      "notSupported": 42.30769230769231
     },
-    notes: null,
-    type: "string",
+    "notes": null,
+    "type": "string"
   },
   "lch()": {
-    slug: "css-modern-color",
-    description: "Modern color values: lch, lab, oklch and oklab",
-    url: "https://www.caniemail.com/features/css-modern-color/",
-    last_test_date: "2023-01-18",
-    coverage: {
-      support: 25.806451612903224,
-      partial: 0,
-      notSupported: 74.19354838709677,
+    "slug": "css-modern-color",
+    "description": "Modern color values: lch, lab, oklch and oklab",
+    "url": "https://www.caniemail.com/features/css-modern-color/",
+    "last_test_date": "2023-01-18",
+    "coverage": {
+      "support": 25.806451612903224,
+      "partial": 0,
+      "notSupported": 74.19354838709677
     },
-    notes: null,
-    type: "string",
+    "notes": null,
+    "type": "string"
   },
   "has()": {
-    slug: "css-pseudo-class-has",
-    description:
-      "Represents an element if any of the selectors passed as parameters match at least one element.",
-    url: "https://www.caniemail.com/features/css-pseudo-class-has/",
-    last_test_date: "2022-03-15",
-    coverage: {
-      support: 25,
-      partial: 0,
-      notSupported: 75,
+    "slug": "css-pseudo-class-has",
+    "description": "Represents an element if any of the selectors passed as parameters match at least one element.",
+    "url": "https://www.caniemail.com/features/css-pseudo-class-has/",
+    "last_test_date": "2022-03-15",
+    "coverage": {
+      "support": 25,
+      "partial": 0,
+      "notSupported": 75
     },
-    notes:
-      "As of december 2021, `:has()` is only supported in [Safari Technology Preview 137](https://webkit.org/blog/12156/release-notes-for-safari-technology-preview-137/). As of march 2022, it is supported in Safari 15.4.",
-    type: "string",
+    "notes": "As of december 2021, `:has()` is only supported in [Safari Technology Preview 137](https://webkit.org/blog/12156/release-notes-for-safari-technology-preview-137/). As of march 2022, it is supported in Safari 15.4.",
+    "type": "string"
   },
   "lang()": {
-    slug: "css-pseudo-class-lang",
-    description: "Matches elements based on the language they are determined to be in.",
-    url: "https://www.caniemail.com/features/css-pseudo-class-lang/",
-    last_test_date: "2022-07-12",
-    coverage: {
-      support: 32.25806451612903,
-      partial: 0,
-      notSupported: 67.74193548387096,
+    "slug": "css-pseudo-class-lang",
+    "description": "Matches elements based on the language they are determined to be in.",
+    "url": "https://www.caniemail.com/features/css-pseudo-class-lang/",
+    "last_test_date": "2022-07-12",
+    "coverage": {
+      "support": 32.25806451612903,
+      "partial": 0,
+      "notSupported": 67.74193548387096
     },
-    notes: null,
-    type: "string",
+    "notes": null,
+    "type": "string"
   },
   "radial-gradient()": {
-    slug: "css-radial-gradient",
-    description:
-      "Creates an image consisting of a progressive transition between two or more colors that radiate from an origin.",
-    url: "https://www.caniemail.com/features/css-radial-gradient/",
-    last_test_date: "2021-12-29",
-    coverage: {
-      support: 60.78431372549019,
-      partial: 1.9607843137254901,
-      notSupported: 37.254901960784316,
+    "slug": "css-radial-gradient",
+    "description": "Creates an image consisting of a progressive transition between two or more colors that radiate from an origin.",
+    "url": "https://www.caniemail.com/features/css-radial-gradient/",
+    "last_test_date": "2021-12-29",
+    "coverage": {
+      "support": 60.78431372549019,
+      "partial": 1.9607843137254901,
+      "notSupported": 37.254901960784316
     },
-    notes: null,
-    type: "string",
+    "notes": null,
+    "type": "string"
   },
   "rgb()": {
-    slug: "css-rgb",
-    description: "RGB functional notation (`rgb()`)",
-    url: "https://www.caniemail.com/features/css-rgb/",
-    last_test_date: "2021-05-14",
-    coverage: {
-      support: 55.55555555555556,
-      partial: 44.44444444444444,
-      notSupported: 0,
+    "slug": "css-rgb",
+    "description": "RGB functional notation (`rgb()`)",
+    "url": "https://www.caniemail.com/features/css-rgb/",
+    "last_test_date": "2021-05-14",
+    "coverage": {
+      "support": 55.55555555555556,
+      "partial": 44.44444444444444,
+      "notSupported": 0
     },
-    notes: null,
-    type: "string",
+    "notes": null,
+    "type": "string"
   },
   "rgba()": {
-    slug: "css-rgba",
-    description: "RGB functional notation with alpha-channel transparency value (`rgba()`)",
-    url: "https://www.caniemail.com/features/css-rgba/",
-    last_test_date: "2021-05-14",
-    coverage: {
-      support: 57.692307692307686,
-      partial: 21.153846153846153,
-      notSupported: 21.153846153846153,
+    "slug": "css-rgba",
+    "description": "RGB functional notation with alpha-channel transparency value (`rgba()`)",
+    "url": "https://www.caniemail.com/features/css-rgba/",
+    "last_test_date": "2021-05-14",
+    "coverage": {
+      "support": 57.692307692307686,
+      "partial": 21.153846153846153,
+      "notSupported": 21.153846153846153
     },
-    notes: null,
-    type: "string",
+    "notes": null,
+    "type": "string"
   },
   "calc()": {
-    slug: "css-unit-calc",
-    description: "Support for CSS calc function.",
-    url: "https://www.caniemail.com/features/css-unit-calc/",
-    last_test_date: "2020-02-25",
-    coverage: {
-      support: 50.943396226415096,
-      partial: 3.7735849056603774,
-      notSupported: 45.28301886792453,
+    "slug": "css-unit-calc",
+    "description": "Support for CSS calc function.",
+    "url": "https://www.caniemail.com/features/css-unit-calc/",
+    "last_test_date": "2020-02-25",
+    "coverage": {
+      "support": 50.943396226415096,
+      "partial": 3.7735849056603774,
+      "notSupported": 45.28301886792453
     },
-    notes: "",
-    type: "string",
-  },
+    "notes": "",
+    "type": "string"
+  }
 } as const;

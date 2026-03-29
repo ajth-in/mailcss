@@ -2,6 +2,7 @@ import type { Config } from "../types/config";
 import { canIEmailCSSProperties } from "../can-i-email/maps/properties";
 import { canIEmailCSSFunctions } from "../can-i-email/maps/functions";
 import { canIEmailCSSUnits } from "../can-i-email/maps/units";
+import { canIEmailCSSValues } from "../can-i-email/maps/values";
 import { CompatibilityError } from "../exceptions/compatibility-error";
 import type { ProcessedItem } from "../can-i-email";
 import * as c from "../utils/console-colors";
@@ -10,6 +11,7 @@ import { camelToKebab } from "../utils/camel-to-kebab";
 const propertiesMap = canIEmailCSSProperties as Record<string, ProcessedItem>;
 const functionsMap = canIEmailCSSFunctions as Record<string, ProcessedItem>;
 const unitsMap = canIEmailCSSUnits as Record<string, ProcessedItem>;
+const valuesMap = canIEmailCSSValues as Record<string, ProcessedItem>;
 
 type ValidationCache = {
   reportedProps: Set<string>;
@@ -30,8 +32,9 @@ export const reportValidity = <T extends Config>(
     includePartialSupport: false,
   };
 
+  const kebabProp = camelToKebab(prop);
+
   if (!config.__cache.reportedProps.has(prop)) {
-    const kebabProp = camelToKebab(prop);
     const data = propertiesMap[kebabProp];
 
     if (data) {
@@ -40,6 +43,20 @@ export const reportValidity = <T extends Config>(
       if (score < thresholdConfig.threshold) {
         reportItem(mode, prop, score, thresholdConfig.threshold, data, c.blue);
         config.__cache.reportedProps.add(prop);
+      }
+    }
+  }
+
+  const valKey = `${kebabProp}:${value}`;
+  const cacheKeyVal = `val:${valKey}`;
+  if (!config.__cache.reportedProps.has(cacheKeyVal)) {
+    const data = valuesMap[valKey];
+    if (data) {
+      const score =
+        data.coverage.support + (thresholdConfig.includePartialSupport ? data.coverage.partial : 0);
+      if (score < thresholdConfig.threshold) {
+        reportItem(mode, valKey, score, thresholdConfig.threshold, data, c.yellow);
+        config.__cache.reportedProps.add(cacheKeyVal);
       }
     }
   }

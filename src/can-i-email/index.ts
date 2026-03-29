@@ -65,29 +65,41 @@ async function run() {
     const title = item.title.trim();
     const slug = item.slug;
 
-    // Determine category and clean title
     const isUnit = slug.startsWith("css-unit-") && slug !== "css-unit-calc";
     const isFunction =
       slug.startsWith("css-function-") ||
       slug === "css-unit-calc" ||
       slug === "css-linear-gradient" ||
       title.endsWith("()");
+    const isPseudo = slug.includes("-pseudo-");
+    const isAtRule = title.startsWith("@");
+    const isValue = title.includes(":") && !isPseudo;
 
     let cleanTitle = title;
     if (isUnit) {
-      // "px unit" -> "px"
       cleanTitle = title.replace(/\sunit$/i, "").trim();
     }
     if (isFunction) {
-      // Extract function name, e.g., "CSS calc() function" -> "calc()"
       const match = title.match(/([a-z-]+)\(\)/i);
       if (match) {
         cleanTitle = `${match[1]}()`;
       }
     }
+    if (isValue) {
+      // "display: flex" -> "display:flex" (no space)
+      cleanTitle = title.replace(/\s*:\s*/, ":").trim();
+    }
 
-    // Skip items with spaces in title IF they are not units or functions
-    if (!isUnit && !isFunction && cleanTitle.includes(" ") && !cleanTitle.includes("&")) {
+    // Still skip items with spaces if they are not specifically handled
+    if (
+      !isUnit &&
+      !isFunction &&
+      !isAtRule &&
+      !isPseudo &&
+      !isValue &&
+      cleanTitle.includes(" ") &&
+      !cleanTitle.includes("&")
+    ) {
       continue;
     }
 
@@ -95,9 +107,9 @@ async function run() {
       cssUnits[cleanTitle] = extractNeededFields(item, cleanTitle);
     } else if (isFunction) {
       cssFunctions[cleanTitle] = extractNeededFields(item, cleanTitle);
-    } else if (cleanTitle.startsWith("@")) {
+    } else if (isAtRule) {
       cssAtRules[cleanTitle] = extractNeededFields(item, cleanTitle);
-    } else if (cleanTitle.includes(":")) {
+    } else if (isValue) {
       cssValues[cleanTitle] = extractNeededFields(item, cleanTitle);
     } else if (cleanTitle.includes("&")) {
       const parts = cleanTitle.split("&").map((s) => s.trim());
@@ -106,12 +118,12 @@ async function run() {
           cssProps[part] = extractNeededFields(item, part);
         }
       }
-    } else {
+    } else if (!isPseudo) {
       cssProps[cleanTitle] = extractNeededFields(item, cleanTitle);
     }
   }
 
-  // Supplement missing properties from propsToType map.
+  // Supplement missing properties
   for (const prop in propsToType) {
     if (!cssProps[prop]) {
       cssProps[prop] = {
@@ -130,7 +142,6 @@ async function run() {
     }
   }
 
-  // Create directory if it doesn't exist
   await fs.mkdir(MAPS_DIR, { recursive: true });
 
   const files = {
