@@ -1,6 +1,6 @@
-# EmailCSS
+# MailCSS
 
-EmailCSS is a type-safe, compatibility-aware CSS-in-JS library designed specifically for inline styles in emails. it integrates real-time data from "Can I Email" to provide immediate feedback on CSS support across various email clients, ensuring your designs remain consistent and accessible.
+MailCSS is a type-safe, compatibility-aware CSS-in-JS library designed specifically for inline styles in emails. it integrates real-time data from "Can I Email" to provide immediate feedback on CSS support across various email clients, ensuring your designs remain consistent and accessible.
 
 ## Features
 
@@ -13,9 +13,9 @@ EmailCSS is a type-safe, compatibility-aware CSS-in-JS library designed specific
 ## Installation
 
 ```bash
-npm install emailcss
+npm install mailcss
 # or
-pnpm add emailcss
+pnpm add mailcss
 ```
 
 ## Configuration
@@ -23,7 +23,7 @@ pnpm add emailcss
 Initialize your design system and validation settings using `defineConfig`. This function returns a configured `css` function for use in your components.
 
 ```typescript
-import { defineConfig } from "emailcss";
+import { defineConfig } from "mailcss";
 
 export const { css } = defineConfig({
   // Behavior when encountering compatibility issues

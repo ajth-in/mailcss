@@ -1,5 +1,5 @@
 ---
-"emailcss": minor
+"mailcss": minor
 ---
 
 initial release

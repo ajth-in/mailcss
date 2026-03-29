@@ -10,7 +10,7 @@
   "author": "Author Name <ajithpmuralidharan01@mail.com>",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ajth-in/emailcss.git"
+    "url": "git+https://github.com/ajth-in/mailcss.git"
   },
   "files": [
     "dist"

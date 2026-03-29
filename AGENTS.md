@@ -1,6 +1,6 @@
-# EmailCSS Agent Guide
+# MailCSS Agent Guide
 
-This project is `emailcss`, a type-safe, compatibility-aware CSS-in-JS library specifically designed for React Email. It automates the ingestion of [Can I Email](https://www.caniemail.com/) data to provide real-time feedback on CSS support across various email clients.
+This project is `mailcss`, a type-safe, compatibility-aware CSS-in-JS library specifically designed for React Email. It automates the ingestion of [Can I Email](https://www.caniemail.com/) data to provide real-time feedback on CSS support across various email clients.
 
 ## Core Architecture
 
