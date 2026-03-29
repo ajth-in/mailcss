@@ -20,6 +20,9 @@
     ".": "./dist/index.mjs",
     "./package.json": "./package.json"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "email:dev": "email dev",
     "build": "pnpm run prebuild && vp pack",
@@ -27,13 +30,14 @@
     "dev": "vp pack --watch",
     "test": "vp test",
     "typecheck": "tsc --noEmit",
-    "release": "bumpp",
+    "publish-packages": "changeset publish",
     "prepublishOnly": "pnpm run build",
     "prepare": "vp config",
     "gen-property-map": "tsx src/can-i-email/index.ts",
     "gen-types": "tsx src/scripts/generate-types.ts"
   },
   "devDependencies": {
+    "@changesets/cli": "^2.30.0",
     "@react-email/components": "1.0.10",
     "@react-email/preview-server": "5.2.10",
     "@types/node": "^25.5.0",
