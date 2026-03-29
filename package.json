@@ -1,5 +1,5 @@
 {
-  "name": "react-email-css-in-js",
+  "name": "emailcss",
   "version": "0.0.0",
   "description": " A lightweight, type-safe CSS-in-JS solution designed specifically for React Email.",
   "homepage": "https://github.com/author/library#readme",
@@ -10,7 +10,7 @@
   "author": "Author Name <ajithpmuralidharan01@mail.com>",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ajth-in/react-email-css-in-js.git"
+    "url": "git+https://github.com/ajth-in/emailcss.git"
   },
   "files": [
     "dist"
