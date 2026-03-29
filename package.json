@@ -29,7 +29,8 @@
     "release": "bumpp",
     "prepublishOnly": "pnpm run build",
     "prepare": "vp config",
-    "cie:generate": "tsx src/scripts/can-i-email.ts"
+    "cie:generate": "tsx src/scripts/can-i-email.ts",
+    "types:generate": "tsx src/scripts/generate-types.ts"
   },
   "dependencies": {
     "@react-email/components": "1.0.10",

@@ -6,7 +6,10 @@ export default function Email() {
     <Html>
       <Head />
       <Body>
-        <Button href="https://example.com" style={css({ backgroundColor: "black.sa" })}>
+        <Button
+          href="https://example.com"
+          style={css({ backgroundColor: "black.sa", accentColor: "red" })}
+        >
           Click me
         </Button>
       </Body>
