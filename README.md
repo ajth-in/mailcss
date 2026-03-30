@@ -2,57 +2,31 @@
 
 ![NPM Version](https://img.shields.io/npm/v/mailcss) ![NPM License](https://img.shields.io/npm/l/mailcss)
 
-MailCSS is a type-safe, compatibility-aware CSS-in-JS library designed specifically for inline styles in emails. it integrates real-time data from "Can I Email" to provide immediate feedback on CSS support across various email clients, ensuring your designs remain consistent and accessible.
-
-## Features
-
-- **Type-Safe Styles**: Fully typed CSS properties that resolve to your design system's tokens.
-- **Compatibility Validation**: Real-time identification of CSS properties, values, functions, and units with poor email client support.
-- **Automated Metadata**: JSDoc documentation for CSS properties includes live support statistics and direct links to documentation.
-- **Shorthand Utilities**: Built-in support for directional shorthands like `marginX`, `paddingY`, and `borderTopRadius`.
-- **Customizable Thresholds**: Define your own support requirements for warnings and errors.
+MailCSS is a type-safe, compatibility-aware CSS-in-JS library designed specifically for inline styles in emails. It integrates real-time data from [Can I Email](https://www.caniemail.com/) to provide immediate feedback on CSS support across various email clients.
 
 ## Installation
 
 ```bash
 npm install mailcss
-
 # or
 pnpm add mailcss
 ```
 
-## Configuration
+## Getting Started
 
-Initialize your design system and validation settings using `defineConfig`. This function returns a configured `css` function for use in your components.
+1. **Configure your Design System**: Create a configuration file (e.g., `emails/css.ts`) to define your theme and validation settings.
 
 ```typescript
+// emails/css.ts
 import { defineConfig } from "mailcss";
 
 export const { css } = defineConfig({
-  // Behavior when encountering compatibility issues
-  validationMode: "warn", // Options: 'warn', 'error', 'none'
-
-  // Global support requirements
-  supportThreshold: {
-    threshold: 90,
-    includePartialSupport: false,
-  },
-
-  // Enforce token-only values for supported properties
-  strictTokens: false,
-
-  // Extend the default theme with your design system
+  validationMode: "warn",
   extended: {
     theme: {
       tokens: {
         colors: {
-          brand: {
-            blue: { value: "#2754C5" },
-            navy: { value: "#252F3D" },
-          },
-        },
-        spacing: {
-          container: { value: "20px" },
+          brand: { blue: { value: "#2754C5" } },
         },
       },
     },
@@ -60,47 +34,21 @@ export const { css } = defineConfig({
 });
 ```
 
-### Config Properties
-
-| Property           | Type      | Description                                                                                                                                |
-| :----------------- | :-------- | :----------------------------------------------------------------------------------------------------------------------------------------- |
-| `validationMode`   | `string`  | Defines the reporting behavior (`warn`, `error`, or `none`) when a CSS feature falls below the threshold.                                  |
-| `supportThreshold` | `object`  | Specifies the minimum percentage of support required. `includePartialSupport` determines if partial support scores are added to the total. |
-| `strictTokens`     | `boolean` | If true, style properties will only accept values defined in your theme tokens, disabling arbitrary string values.                         |
-| `extended`         | `object`  | Allows extending or overriding the default theme system with custom tokens and semantic tokens.                                            |
-
-## Usage
-
-Use the generated `css` function within your React Email components.
+2. **Use it in your components**: Import the generated `css` function to style your React Email components.
 
 ```tsx
 import { css } from "./css";
 
-export default function WelcomeEmail() {
+export default function MyEmail() {
   return (
-    <div
-      style={css({
-        backgroundColor: "brand.navy",
-        paddingX: "container",
-        color: "#ffffff",
-        // This will trigger a warning if 'accentColor' support is below your threshold
-        accentColor: "brand.blue",
-      })}
-    >
-      <h1>Welcome</h1>
+    <div style={css({ backgroundColor: "brand.blue", padding: "20px" })}>
+      <h1 style={css({ color: "#ffffff", fontSize: "24px" })}>Welcome!</h1>
     </div>
   );
 }
 ```
 
-## Maintenance
+## Documentation
 
-To keep your library synchronized with the latest email client compatibility data, use the following maintenance commands:
-
-- `gen-property-map`: Synchronizes local compatibility maps with the latest Can I Email API data.
-- `gen-types`: Regenerates the TypeScript style interfaces based on the current maps and theme configuration.
-- `prebuild`: Executes both of the above commands sequentially.
-
-```bash
-pnpm run prebuild
-```
+- [**Configuration Reference**](docs/configuration.md): Detailed information on all configuration options.
+- [**Theming Guide**](docs/theming.md): Learn how to build a sophisticated design system with tokens and semantic aliases.
