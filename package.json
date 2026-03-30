@@ -2,12 +2,12 @@
   "name": "mailcss",
   "version": "0.1.0",
   "description": " A lightweight, type-safe CSS-in-JS solution designed specifically for React Email.",
-  "homepage": "https://github.com/author/library#readme",
+  "homepage": "https://github.com/ajth-in/mailcss#readme",
   "bugs": {
-    "url": "https://github.com/author/library/issues"
+    "url": "https://github.com/ajth-in/mailcss/issues"
   },
   "license": "MIT",
-  "author": "Author Name <ajithpmuralidharan01@mail.com>",
+  "author": "Ajith Kumar P M <ajithpmuralidharan01@mail.com>",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ajth-in/mailcss.git"
