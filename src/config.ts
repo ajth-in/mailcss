@@ -1,5 +1,5 @@
 import type { Config } from "./types/config";
-import { defaultTheme } from "./types/theme/default";
+import { defaultTheme } from "./css/default-theme";
 import { css } from "./css";
 import { deepMerge } from "./utils/deep-merge";
 

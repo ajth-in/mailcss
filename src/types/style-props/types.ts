@@ -1,5 +1,5 @@
 import type { TokenDataTypes } from "../theme/data";
-import { defaultTheme } from "../theme/default";
+import { defaultTheme } from "../../css/default-theme";
 
 type DefaultTokens = typeof defaultTheme.tokens;
 

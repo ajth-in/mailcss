@@ -1,4 +1,4 @@
-import type { Theme } from "./theme";
+import type { Theme } from "../types/theme/theme";
 
 export const defaultTheme: Theme = {
   tokens: {
