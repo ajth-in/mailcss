@@ -18,15 +18,6 @@ export interface SemanticToken<Value = string, Condition extends string = string
   RecursiveToken<Condition, Value>
 > {}
 
-export interface Shadow {
-  offsetX: number | string;
-  offsetY: number | string;
-  blur: number | string;
-  spread: number | string;
-  color: string;
-  inset?: boolean;
-}
-
 export interface Gradient {
   type: "linear" | "radial";
   placement: string | number;
@@ -41,20 +32,4 @@ export interface Gradient {
 export interface Asset {
   type: "url" | "svg";
   value: string;
-}
-
-export interface Border {
-  color: string;
-  width: string | number;
-  style:
-    | "dashed"
-    | "dotted"
-    | "double"
-    | "groove"
-    | "hidden"
-    | "inset"
-    | "none"
-    | "outset"
-    | "ridge"
-    | "solid";
 }

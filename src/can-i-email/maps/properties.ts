@@ -118,7 +118,7 @@ export const canIEmailCSSProperties = {
       notSupported: 12.307692307692308,
     },
     notes: null,
-    type: "assets",
+    type: "string",
   },
   "background-origin": {
     slug: "css-background-origin",
@@ -2107,18 +2107,5 @@ export const canIEmailCSSProperties = {
     },
     notes: null,
     type: "colors",
-  },
-  "font-family": {
-    slug: "",
-    description: null,
-    url: "",
-    last_test_date: "",
-    coverage: {
-      support: 100,
-      partial: 0,
-      notSupported: 0,
-    },
-    notes: null,
-    type: "fonts",
   },
 } as const;

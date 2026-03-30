@@ -94,7 +94,7 @@ export interface SystemProperties<T = Config> {
    * @partial 27.69%
    * @not_supported 12.31%
    */
-  backgroundImage?: PropertyValue<T, "assets">;
+  backgroundImage?: AnyString;
   /**
    * @see https://www.caniemail.com/features/css-background-origin/
    * @slug css-background-origin
@@ -1437,10 +1437,4 @@ export interface SystemProperties<T = Config> {
    * @not_supported 0.00%
    */
   color?: PropertyValue<T, "colors">;
-  /**
-   * @support 100.00%
-   * @partial 0.00%
-   * @not_supported 0.00%
-   */
-  fontFamily?: PropertyValue<T, "fonts">;
 }

@@ -7,6 +7,9 @@ export const { css } = defineConfig({
   extended: {
     theme: {
       tokens: {
+        zIndex: {
+          popover: { value: "10000" },
+        },
         colors: {
           brand: {
             navy: { value: "#252f3d" },

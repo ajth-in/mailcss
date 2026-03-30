@@ -1,4 +1,6 @@
-export const propsToType = {
+import type { TokenDataTypes } from "../../types/theme";
+
+export const propsToType: Record<string, keyof TokenDataTypes | "string"> = {
   // Background
   background: "colors",
   "background-color": "colors",
@@ -13,7 +15,6 @@ export const propsToType = {
   "background-clip": "string",
   "background-origin": "string",
   "background-blend-mode": "string",
-  "background-image": "assets",
   "background-composite": "string",
 
   // Border
@@ -81,7 +82,6 @@ export const propsToType = {
   "accent-color": "colors",
   // Typography
   color: "colors",
-  "font-family": "fonts",
   "font-size": "fontSizes",
   "font-weight": "fontWeights",
   "line-height": "lineHeights",
