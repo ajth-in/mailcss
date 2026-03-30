@@ -1,5 +1,0 @@
----
-"mailcss": minor
----
-
-initial release
