@@ -53,6 +53,9 @@
     "vitest": "npm:@voidzero-dev/vite-plus-test@latest",
     "zod": "^4.3.6"
   },
+  "engines": {
+    "node": ">=24.13.1"
+  },
   "packageManager": "pnpm@10.33.0",
   "pnpm": {
     "overrides": {
