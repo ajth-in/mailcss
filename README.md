@@ -1,5 +1,7 @@
 # MailCSS
 
+![NPM Version](https://img.shields.io/npm/v/mailcss) ![NPM License](https://img.shields.io/npm/l/mailcss)
+
 MailCSS is a type-safe, compatibility-aware CSS-in-JS library designed specifically for inline styles in emails. it integrates real-time data from "Can I Email" to provide immediate feedback on CSS support across various email clients, ensuring your designs remain consistent and accessible.
 
 ## Features
@@ -14,6 +16,7 @@ MailCSS is a type-safe, compatibility-aware CSS-in-JS library designed specifica
 
 ```bash
 npm install mailcss
+
 # or
 pnpm add mailcss
 ```
