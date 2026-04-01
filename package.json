@@ -1,6 +1,6 @@
 {
   "name": "mailcss",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": " A lightweight, type-safe CSS-in-JS solution designed specifically for React Email.",
   "homepage": "https://github.com/ajth-in/mailcss#readme",
   "bugs": {

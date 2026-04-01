@@ -1,5 +1,15 @@
 # mailcss
 
+## 0.3.0
+
+### Minor Changes
+
+- b39d60f: - Added shorthand spacing utilities `mx`, `my`, `px`, and `py` with updated spacing type definition
+  - Enhanced token resolution to correctly handle non-string values
+  - Allowed `null` values in property types for better flexibility
+  - Added comprehensive test coverage for the `css` function
+  - Introduced AWS email verification template using the CSS-in-JS utility
+
 ## 0.2.0
 
 ### Minor Changes
