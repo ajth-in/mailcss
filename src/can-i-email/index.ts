@@ -3,6 +3,8 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { propsToType } from "./maps/props-to-type";
 import { computeSupportCoverage } from "./compute-support-coverage";
+import SHORTHANDS from "../css/short-hands";
+import { camelToKebab } from "../utils/camel-to-kebab";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const MAPS_DIR = path.resolve(__dirname, "./maps");
@@ -126,19 +128,35 @@ async function run() {
   // Supplement missing properties
   for (const prop in propsToType) {
     if (!cssProps[prop]) {
-      cssProps[prop] = {
-        slug: "",
-        description: null,
-        url: "",
-        last_test_date: "",
-        coverage: {
-          support: 100,
-          partial: 0,
-          notSupported: 0,
-        },
-        notes: null,
-        type: (propsToType as any)[prop],
-      };
+      const camelProp = prop.replace(/-([a-z])/g, (g) => g[1].toUpperCase());
+      const longhandCamel = SHORTHANDS[camelProp];
+
+      let baseData = undefined;
+      if (longhandCamel) {
+        const longhandKebab = camelToKebab(longhandCamel);
+        baseData = cssProps[longhandKebab];
+      }
+
+      if (baseData) {
+        cssProps[prop] = {
+          ...baseData,
+          type: propsToType[prop],
+        };
+      } else {
+        cssProps[prop] = {
+          slug: "",
+          description: null,
+          url: "",
+          last_test_date: "",
+          coverage: {
+            support: 100,
+            partial: 0,
+            notSupported: 0,
+          },
+          notes: null,
+          type: (propsToType as any)[prop],
+        };
+      }
     }
   }
 

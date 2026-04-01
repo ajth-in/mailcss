@@ -1384,27 +1384,43 @@ export interface SystemProperties<T = Config> {
    */
   marginLeft?: PropertyValue<T, "spacing">;
   /**
-   * @support 100.00%
+   * Support for the `margin-inline` and `margin-block` shorthand properties.
+   * @see https://www.caniemail.com/features/css-margin-inline-block/
+   * @slug css-margin-inline-block
+   * @last_test_date 2022-07-12
+   * @support 41.82%
    * @partial 0.00%
-   * @not_supported 0.00%
+   * @not_supported 58.18%
    */
   marginX?: PropertyValue<T, "spacing">;
   /**
-   * @support 100.00%
+   * Support for the `margin-inline` and `margin-block` shorthand properties.
+   * @see https://www.caniemail.com/features/css-margin-inline-block/
+   * @slug css-margin-inline-block
+   * @last_test_date 2022-07-12
+   * @support 41.82%
    * @partial 0.00%
-   * @not_supported 0.00%
+   * @not_supported 58.18%
    */
   marginY?: PropertyValue<T, "spacing">;
   /**
-   * @support 100.00%
+   * Support for the `margin-inline` and `margin-block` shorthand properties.
+   * @see https://www.caniemail.com/features/css-margin-inline-block/
+   * @slug css-margin-inline-block
+   * @last_test_date 2022-07-12
+   * @support 41.82%
    * @partial 0.00%
-   * @not_supported 0.00%
+   * @not_supported 58.18%
    */
   mx?: PropertyValue<T, "spacing">;
   /**
-   * @support 100.00%
+   * Support for the `margin-inline` and `margin-block` shorthand properties.
+   * @see https://www.caniemail.com/features/css-margin-inline-block/
+   * @slug css-margin-inline-block
+   * @last_test_date 2022-07-12
+   * @support 41.82%
    * @partial 0.00%
-   * @not_supported 0.00%
+   * @not_supported 58.18%
    */
   my?: PropertyValue<T, "spacing">;
   /**
@@ -1432,27 +1448,47 @@ export interface SystemProperties<T = Config> {
    */
   paddingLeft?: PropertyValue<T, "spacing">;
   /**
-   * @support 100.00%
+   * Support for the `padding-inline` and `padding-block` shorthand properties.
+   * @see https://www.caniemail.com/features/css-padding-inline-block/
+   * @slug css-padding-inline-block
+   * @last_test_date 2022-07-13
+   * @support 26.67%
    * @partial 0.00%
-   * @not_supported 0.00%
+   * @not_supported 73.33%
+   * @deprecated poor support coverage. This property might not work as expected in many email clients.
    */
   paddingX?: PropertyValue<T, "spacing">;
   /**
-   * @support 100.00%
+   * Support for the `padding-inline` and `padding-block` shorthand properties.
+   * @see https://www.caniemail.com/features/css-padding-inline-block/
+   * @slug css-padding-inline-block
+   * @last_test_date 2022-07-13
+   * @support 26.67%
    * @partial 0.00%
-   * @not_supported 0.00%
+   * @not_supported 73.33%
+   * @deprecated poor support coverage. This property might not work as expected in many email clients.
    */
   paddingY?: PropertyValue<T, "spacing">;
   /**
-   * @support 100.00%
+   * Support for the `padding-inline` and `padding-block` shorthand properties.
+   * @see https://www.caniemail.com/features/css-padding-inline-block/
+   * @slug css-padding-inline-block
+   * @last_test_date 2022-07-13
+   * @support 26.67%
    * @partial 0.00%
-   * @not_supported 0.00%
+   * @not_supported 73.33%
+   * @deprecated poor support coverage. This property might not work as expected in many email clients.
    */
   px?: PropertyValue<T, "spacing">;
   /**
-   * @support 100.00%
+   * Support for the `padding-inline` and `padding-block` shorthand properties.
+   * @see https://www.caniemail.com/features/css-padding-inline-block/
+   * @slug css-padding-inline-block
+   * @last_test_date 2022-07-13
+   * @support 26.67%
    * @partial 0.00%
-   * @not_supported 0.00%
+   * @not_supported 73.33%
+   * @deprecated poor support coverage. This property might not work as expected in many email clients.
    */
   py?: PropertyValue<T, "spacing">;
   /**
