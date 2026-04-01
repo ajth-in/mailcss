@@ -32,7 +32,7 @@ const SHORTHANDS: Record<string, { expansion: string[]; category: string }> = {
 
 export const css =
   <T extends Config>(config: T) =>
-  (styles: SystemProperties<T>) => {
+  (styles: SystemProperties<T>): Record<string, any> | string => {
     const resolvedStyles: Record<string, any> = {};
 
     Object.entries(styles).forEach(([prop, value]) => {
@@ -51,6 +51,12 @@ export const css =
       const category = typeCategoryMap[kebabProp];
       resolvedStyles[prop] = category ? resolveToken(config, category, value as string) : value;
     });
+
+    if (config.cssReturnType === "raw") {
+      return Object.entries(resolvedStyles)
+        .map(([prop, value]) => `${camelToKebab(prop)}: ${value};`)
+        .join(" ");
+    }
 
     return resolvedStyles;
   };

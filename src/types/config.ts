@@ -33,4 +33,12 @@ export interface Config {
    * @default true
    */
   reportCompatibilityIssues?: boolean;
+
+  /**
+   * Defines the output format of the `css` function.
+   * - `raw`: Returns a semicolon-separated CSS string.
+   * - `jsx`: Returns a React-compatible style object.
+   * @default "jsx"
+   */
+  cssReturnType?: "raw" | "jsx";
 }

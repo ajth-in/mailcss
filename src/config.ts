@@ -9,6 +9,7 @@ export function defineConfig<T extends Config>(config: T) {
     reportCompatibilityIssues: config.reportCompatibilityIssues ?? true,
     supportThreshold: config.supportThreshold ?? { threshold: 50, includePartialSupport: false },
     validationMode: config.validationMode ?? "warn",
+    cssReturnType: config.cssReturnType ?? "jsx",
     extended: {
       ...config.extended,
       theme: config.extended?.theme ? deepMerge(defaultTheme, config.extended.theme) : defaultTheme,

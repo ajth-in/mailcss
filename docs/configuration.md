@@ -66,6 +66,21 @@ const { css } = defineConfig({
 
 ---
 
+## `cssReturnType`
+
+Defines the output format of the `css` function.
+
+- **`"jsx"`** (default): Returns a React-compatible style object (e.g., `{ backgroundColor: 'blue', color: 'white' }`).
+- **`"raw"`**: Returns a semicolon-separated CSS string (e.g., `"background-color: blue; color: white;"`). Ideal for native HTML `style` attributes.
+
+```typescript
+const { css } = defineConfig({
+  cssReturnType: "raw",
+});
+```
+
+---
+
 ## `extended`
 
 This is where you define your theme, including tokens and semantic aliases.
