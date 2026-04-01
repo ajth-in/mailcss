@@ -36,20 +36,20 @@ export const css =
     const resolvedStyles: Record<string, any> = {};
 
     Object.entries(styles).forEach(([prop, value]) => {
-      reportCompatibilityIssues(config, prop, value);
       if (value === undefined || value === null) return;
+      reportCompatibilityIssues(config, prop, value);
 
       const shorthand = SHORTHANDS[prop];
       if (shorthand) {
         shorthand.expansion.forEach((targetProp) => {
-          resolvedStyles[targetProp] = resolveToken(config, shorthand.category, value as string);
+          resolvedStyles[targetProp] = resolveToken(config, shorthand.category, value);
         });
         return;
       }
 
       const kebabProp = camelToKebab(prop);
       const category = typeCategoryMap[kebabProp];
-      resolvedStyles[prop] = category ? resolveToken(config, category, value as string) : value;
+      resolvedStyles[prop] = category ? resolveToken(config, category, value) : value;
     });
 
     if (config.cssReturnType === "raw") {
