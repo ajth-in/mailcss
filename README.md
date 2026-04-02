@@ -20,7 +20,7 @@ pnpm add mailcss
 // emails/css.ts
 import { defineConfig } from "mailcss";
 
-export const { css } = defineConfig({
+export const { css, styles } = defineConfig({
   validationMode: "warn",
   extended: {
     theme: {
@@ -34,15 +34,23 @@ export const { css } = defineConfig({
 });
 ```
 
-2. **Use it in your components**: Import the generated `css` function to style your React Email components.
+2. **Use it in your components**: Import the generated functions to style your templates.
+
+- **`css()`** returns a CSS object, ideal for React/JSX `style` props.
+- **`styles()`** returns a serialized style string, ideal for raw HTML injection.
 
 ```tsx
-import { css } from "./css";
+import { css, styles } from "./css";
 
 export default function MyEmail() {
   return (
     <div style={css({ backgroundColor: "brand.blue", padding: "20px" })}>
       <h1 style={css({ color: "#ffffff", fontSize: "24px" })}>Welcome!</h1>
+      <div
+        dangerouslySetInnerHTML={{
+          __html: `<span style="${styles({ fontWeight: "bold" })}">Serialized inline string</span>`,
+        }}
+      />
     </div>
   );
 }
