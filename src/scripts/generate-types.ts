@@ -1,7 +1,7 @@
 import fs from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-import { canIEmailCSSProperties } from "../can-i-email/maps/properties";
+import { canIEmailCSSProperties } from "../can-i-email/__generated_maps__/properties";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const OUTPUT_FILE = path.resolve(__dirname, "../types/style-props/index.ts");

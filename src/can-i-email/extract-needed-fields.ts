@@ -1,4 +1,4 @@
-import { propsToType } from "./maps/props-to-type";
+import { propsToType } from "./__generated_maps__/props-to-type";
 import { computeSupportCoverage } from "./compute-support-coverage";
 import type { CanIEmailItem, ProcessedItem } from "./types";
 

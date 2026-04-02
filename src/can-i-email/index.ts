@@ -4,7 +4,7 @@ import { CanIEmailMapsBuilder } from "./can-i-email-maps-builder";
 import { fetchCanIEmailData } from "./fetch-can-i-email-data";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const MAPS_DIR = path.resolve(__dirname, "./maps");
+const MAPS_DIR = path.resolve(__dirname, "./__generated_maps__");
 
 async function run() {
   const builder = new CanIEmailMapsBuilder();

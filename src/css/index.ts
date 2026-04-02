@@ -1,6 +1,6 @@
 import type { Config } from "../types/config";
 import type { SystemProperties } from "../types/style-props";
-import { propsToType } from "../can-i-email/maps/props-to-type";
+import { propsToType } from "../can-i-email/__generated_maps__/props-to-type";
 import { camelToKebab } from "../utils/camel-to-kebab";
 import { reportCompatibilityIssues } from "./report-compatibility-issues";
 import { resolveToken } from "./resolve-token";

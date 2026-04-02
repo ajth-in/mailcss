@@ -1,6 +1,6 @@
 import fs from "node:fs/promises";
 import path from "node:path";
-import { propsToType } from "./maps/props-to-type";
+import { propsToType } from "./__generated_maps__/props-to-type";
 import SHORTHANDS from "../css/short-hands";
 import { camelToKebab } from "../utils/camel-to-kebab";
 import type { CanIEmailItem, ProcessedItem } from "./types";

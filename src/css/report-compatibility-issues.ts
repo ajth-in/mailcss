@@ -1,8 +1,8 @@
 import type { Config } from "../types/config";
-import { canIEmailCSSProperties } from "../can-i-email/maps/properties";
-import { canIEmailCSSFunctions } from "../can-i-email/maps/functions";
-import { canIEmailCSSUnits } from "../can-i-email/maps/units";
-import { canIEmailCSSValues } from "../can-i-email/maps/values";
+import { canIEmailCSSProperties } from "../can-i-email/__generated_maps__/properties";
+import { canIEmailCSSFunctions } from "../can-i-email/__generated_maps__/functions";
+import { canIEmailCSSUnits } from "../can-i-email/__generated_maps__/units";
+import { canIEmailCSSValues } from "../can-i-email/__generated_maps__/values";
 import { CompatibilityError } from "../exceptions/compatibility-error";
 import * as c from "../utils/console-colors";
 import { camelToKebab } from "../utils/camel-to-kebab";
